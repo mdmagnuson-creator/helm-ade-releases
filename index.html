@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helm ADE — Agentic Development Environment</title>
+    <meta name="description" content="Helm ADE is a native macOS client for the Agentic Development Environment. Download the latest version and start building with AI-powered development tools.">
+    <meta name="keywords" content="Helm ADE, macOS, development, AI, agentic, IDE, developer tools">
+    <meta name="author" content="mdmagnuson-creator">
+    <meta property="og:title" content="Helm ADE — Agentic Development Environment">
+    <meta property="og:description" content="Native macOS client for AI-powered development. Download the latest version now.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mdmagnuson-creator.github.io/helm-ade-releases/">
+    <link rel="canonical" href="https://mdmagnuson-creator.github.io/helm-ade-releases/">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2332;
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --accent: #3b82f6;
+            --accent-hover: #60a5fa;
+            --border: #374151;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .icon {
+            width: 128px;
+            height: 128px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .version {
+            display: inline-block;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 9999px;
+            padding: 0.25rem 1rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .download-section {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            font-size: 1.125rem;
+            font-weight: 600;
+            transition: background 0.2s ease, transform 0.2s ease;
+            box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+        }
+
+        .download-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        .download-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .requirements {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card h2 span {
+            font-size: 1.5rem;
+        }
+
+        .steps {
+            list-style: none;
+            counter-reset: steps;
+        }
+
+        .steps li {
+            counter-increment: steps;
+            padding: 0.75rem 0;
+            padding-left: 2.5rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .steps li::before {
+            content: counter(steps);
+            position: absolute;
+            left: 0;
+            width: 1.75rem;
+            height: 1.75rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .steps li strong {
+            color: var(--text-primary);
+        }
+
+        .auto-update {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .auto-update-icon {
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .auto-update-text p {
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .auto-update-text code {
+            display: block;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-family: "SF Mono", Monaco, Consolas, monospace;
+            font-size: 0.8125rem;
+            color: var(--accent);
+            word-break: break-all;
+            margin-top: 0.75rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            .icon {
+                width: 96px;
+                height: 96px;
+                font-size: 3rem;
+                border-radius: 20px;
+            }
+
+            .download-btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .card {
+                padding: 1.5rem;
+            }
+
+            .auto-update {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="icon" role="img" aria-label="Helm ADE app icon">⌘</div>
+            <h1>Helm ADE</h1>
+            <p class="tagline">Agentic Development Environment</p>
+            <span class="version">Latest Release</span>
+        </header>
+
+        <section class="download-section">
+            <a href="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/latest" class="download-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                Download Latest
+            </a>
+            <p class="requirements">Requires macOS 14 Sonoma or later</p>
+        </section>
+
+        <section class="card">
+            <h2><span>📦</span> Installation</h2>
+            <ol class="steps">
+                <li>Download the <strong>.dmg</strong> file from the link above</li>
+                <li>Open the DMG and drag <strong>Helm ADE</strong> to your Applications folder</li>
+                <li>Launch Helm ADE from Applications or Spotlight</li>
+            </ol>
+        </section>
+
+        <section class="card">
+            <h2><span>🔄</span> Auto-Updates</h2>
+            <div class="auto-update">
+                <div class="auto-update-icon">✨</div>
+                <div class="auto-update-text">
+                    <p>Helm ADE checks for updates automatically using <strong>Sparkle</strong>. You can also check manually via <strong>Helm ADE → Check for Updates...</strong> in the menu bar.</p>
+                    <code>https://mdmagnuson-creator.github.io/helm-ade-releases/appcast.xml</code>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                <a href="https://github.com/mdmagnuson-creator/helm-ade-macos">Source Code</a> · 
+                <a href="https://github.com/mdmagnuson-creator/helm-ade-releases/releases">All Releases</a> · 
+                <a href="appcast.xml">Appcast Feed</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

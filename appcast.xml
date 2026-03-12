@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Helm ADE</title>
+    <link>https://mdmagnuson-creator.github.io/helm-ade-releases/appcast.xml</link>
+    <description>Helm ADE Updates</description>
+    <language>en</language>
+    <!-- Items will be prepended by generate-appcast.sh -->
+  </channel>
+</rss>
