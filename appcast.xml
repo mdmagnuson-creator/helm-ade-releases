@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 17:15:30 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix(FIX-028v2): restore left-alignment on message rows
+- fix(FIX-028v2): resolve infinite SwiftUI layout loop via concrete width passing
+- fix: disable Sparkle auto-update in Debug builds and isolate worktree paths between Debug/Release
+- fix: break infinite SwiftUI layout loop that caused 100% CPU hang during streaming (FIX-028)
+- fix: isolate Debug builds from Release to prevent port/PID/state collisions
+- ci: upgrade Xcode 16.2 → 26.2 to satisfy iOS 26 SDK requirement for TestFlight (ITMS-90725)
+- feat: redesign git status widget for worktree-centric model + hide push/pull for worktree sessions (TSK-006, TSK-007)
+- fix: claimBranch now throws branchAlreadyClaimed instead of silently overwriting (TSK-004)
+- fix: add per-repo-path git operation serialization via actor (TSK-003)
+- fix: replace remote URL mutation with per-process credential injection (TSK-002)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-35.dmg" length="46515789" type="application/octet-stream" sparkle:edSignature="E7SZdhQ7OkXATnoyr2F0k6pRR8hgSV00b8An0/X8NAcMm0AktJtnevBp0NQdfH8bVG9DnYoIFnqpwqHJwAMMDQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 13 Mar 2026 16:55:40 +0000</pubDate>
       <sparkle:version>34</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
