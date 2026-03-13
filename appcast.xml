@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 19:28:52 +0000</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- docs(prd): refine intro, goals, scope, US-001–003 with approved decisions
+- feat(SS-012): Command palette operates in focused pane context
+- feat(SS-011): Toolbar reflects focused pane in split mode
+- feat(SS-010): Persist split mode state per project across sessions
+- docs(prd): finalize prd-dashboard-command-center with 14 stories
+- feat(SS-009): Color-coded tab/pane matching in split mode
+- feat(SS-008): Tab reordering in split mode with drag-and-drop
+- feat(SS-007): New tabs automatically appear as panes in split mode
+- feat(SS-006): Tab close behavior in split mode with pane removal and focus shift
+- feat(SS-005): Focus indicator and pane activation in split mode
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-36.dmg" length="46651350" type="application/octet-stream" sparkle:edSignature="aHmwHjUR+jVe+OS5JI2bPA78+j7b55BKMH4FLukXgnxxposXITI26V9zyjiFWdz3XbLuYx3oOiFqDBQxPzjKCw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 13 Mar 2026 17:15:30 +0000</pubDate>
       <sparkle:version>35</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
