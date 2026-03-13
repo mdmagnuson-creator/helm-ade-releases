@@ -5,6 +5,26 @@
     <link>https://mdmagnuson-creator.github.io/helm-ade-releases/appcast.xml</link>
     <description>Helm ADE Updates</description>
     <language>en</language>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 02:49:50 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: handle unquoted Sparkle sign_update output in appcast generation (US-012)
+- revert: trigger release builds on staging push (staging is test environment)
+- feat: trigger release builds on main push instead of staging (US-012)
+- chore: bulk update PRD story statuses — 12/13 completed, US-012 in_progress
+- fix: appcast enclosure quoting bug and iOS export compliance (US-010, US-012)
+- fix: appcast generation — use sed instead of awk for multiline XML, accept --ed-signature from CI
+- fix: bypass exportArchive for Developer ID — extract and codesign app from archive directly
+- chore: add ExportOptions plists to CI path filters
+- fix: use manual signing for Developer ID export — cloud signing not available (US-012)
+- fix: install iOS platform on macOS 15 CI runner before archive (US-010)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-16.dmg" length="46296510" type="application/octet-stream" sparkle:edSignature="m0Dvji8cBniRetmaxOWs51Qi7Q2IDUA7rXP3FmtWys0IEpebN8JL/OUfQKNmS4udSLKyGv0hAh6ZKwx0cHA3AA==" />
+    </item>
     <!-- Items will be prepended by generate-appcast.sh -->
   </channel>
 </rss>
