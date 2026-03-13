@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 04:40:05 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: strip aps-environment entitlement for Developer ID distribution
+- fix: skip code signing during archive to avoid certificate quota error
+- fix: use expanded entitlements for CI re-signing (not raw plist)
+- fix: preserve entitlements during CI re-signing and add session retry logic
+- feat: complete prd-beta-distribution — all 13 stories done ✅
+- fix: handle unquoted Sparkle sign_update output in appcast generation (US-012)
+- revert: trigger release builds on staging push (staging is test environment)
+- feat: trigger release builds on main push instead of staging (US-012)
+- chore: bulk update PRD story statuses — 12/13 completed, US-012 in_progress
+- fix: appcast enclosure quoting bug and iOS export compliance (US-010, US-012)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-20.dmg" length="46298893" type="application/octet-stream" sparkle:edSignature="6wQ4w8SuCzPLUEXH/ZBvD6iNppW+8o8WY6a74UUe3wovhxtPewgApvuu4nXaTP2lm9SFngxBtteFV2+mT1x8Dg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 13 Mar 2026 03:53:25 +0000</pubDate>
       <sparkle:version>19</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
