@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 11:09:06 +0000</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: import Apple Development cert and preserve entitlements in CI
+- revert: restore CI workflow to build 16 state (fix AMFI launch failure)
+- fix: strip aps-environment entitlement for Developer ID distribution
+- fix: skip code signing during archive to avoid certificate quota error
+- fix: use expanded entitlements for CI re-signing (not raw plist)
+- fix: preserve entitlements during CI re-signing and add session retry logic
+- feat: complete prd-beta-distribution — all 13 stories done ✅
+- fix: handle unquoted Sparkle sign_update output in appcast generation (US-012)
+- revert: trigger release builds on staging push (staging is test environment)
+- feat: trigger release builds on main push instead of staging (US-012)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-23.dmg" length="46291910" type="application/octet-stream" sparkle:edSignature="YvIUTvSYSEVr7uDUQC+8htooFNUT7evQHvgCcqIiROg76YcX1328LS3M+rHkhTJeCvvnXg7pFs/n7lYNhtJxDQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 13 Mar 2026 10:59:31 +0000</pubDate>
       <sparkle:version>22</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
