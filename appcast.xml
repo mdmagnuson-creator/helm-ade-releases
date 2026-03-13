@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 13:10:39 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: claimBranch now throws branchAlreadyClaimed instead of silently overwriting (TSK-004)
+- fix: add per-repo-path git operation serialization via actor (TSK-003)
+- fix: replace remote URL mutation with per-process credential injection (TSK-002)
+- fix: store token in WorktreeInfo so pauseSession and autoSave use fresh credentials (TSK-001, TSK-005)
+- feat: UI polish — Session Actions V3 redesign, todo dedup, Tasks header, rail icon fix, tab memory, localhost button
+- fix: use legacy keychain and strip restricted entitlements for Developer ID builds
+- fix: import Apple Development cert and preserve entitlements in CI
+- revert: restore CI workflow to build 16 state (fix AMFI launch failure)
+- fix: strip aps-environment entitlement for Developer ID distribution
+- fix: skip code signing during archive to avoid certificate quota error
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-29.dmg" length="46325402" type="application/octet-stream" sparkle:edSignature="i1ctWnUIHr5uSkRZyzQv9cg0ZvvL81DWtBttpEyXLw+cP5Pb/YGXUQTCXqpyBpHhK8KsUjzF5V+JRoZfvAOvDw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 13 Mar 2026 12:27:42 +0000</pubDate>
       <sparkle:version>25</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
