@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 22:33:34 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: accordion split view, header layout rework, and UI polish
+- feat: restructure tab bar into 2-row layout with ProjectHeaderRow
+- docs(prd): move message-area-refinements to ready (13 stories, JSON + markdown)
+- fix: move .environment(splitViewManager) to ContentView.body level to fix crash on launch
+- docs(prd): add US-013 non-goals, design considerations, success metric; update registry to 13 stories
+- docs(prd): add US-013 enhanced narrative rendering, update intro/goals/scope/FRs/DoD for 13 stories
+- docs(prd): fix FR-2 to match US-001 native translucent overlay spec
+- docs(prd): update DoD, open questions, success metrics, registry for 12 stories
+- docs(prd): update FR-8–20, non-goals, design, and technical considerations for 12 stories
+- docs(prd): refine US-008–010, add new US-011 (race condition) and US-012 (task delegation)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-37.dmg" length="46645759" type="application/octet-stream" sparkle:edSignature="yFiJ4KPo0juEPZVP1oEFtUrPgrnhUiW6pUs49qv69IABX5CeHYmmG31Zxs53cN3p9XRwyh5ASXXIOTjBCYRRAw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 13 Mar 2026 19:28:52 +0000</pubDate>
       <sparkle:version>36</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
