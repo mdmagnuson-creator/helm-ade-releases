@@ -5,6 +5,26 @@
     <link>https://mdmagnuson-creator.github.io/helm-ade-releases/appcast.xml</link>
     <description>Helm ADE Updates</description>
     <language>en</language>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Fri, 13 Mar 2026 01:47:00 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: appcast generation — use sed instead of awk for multiline XML, accept --ed-signature from CI
+- fix: bypass exportArchive for Developer ID — extract and codesign app from archive directly
+- chore: add ExportOptions plists to CI path filters
+- fix: use manual signing for Developer ID export — cloud signing not available (US-012)
+- fix: install iOS platform on macOS 15 CI runner before archive (US-010)
+- fix: remove base64 decode from ASC_KEY_CONTENT — secret is raw .p8 text (US-010)
+- feat: add tab bar to Project Settings splitting Project and Session Actions (TSK-001)
+- feat: widen Project Settings card from 600pt to 1000pt max (TSK-001)
+- feat: iOS Xcode project fixes — shared scheme, aps-environment, archive verified (US-002)
+- feat: complete Apple portal setup with real Sparkle Ed25519 key (US-001)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-13.dmg" length="46294064" type="application/octet-stream" sparkle:edSignature=bOrOuax7gV8U2npb1JqLqY05hlWat8tXCXdhBCKBWOzs0VVe9QOiaWBSnTDiaHQ+cHhHXNDIyJfonTDFf667AA== length=46294064 />
+    </item>
     <!-- Items will be prepended by generate-appcast.sh -->
   </channel>
 </rss>
