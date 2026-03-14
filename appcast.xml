@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 13:40:27 +0000</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: question/option styling + fix inline code pill contrast
+- feat: rich markdown rendering — brighter text, code block contrast, inline code color variety
+- fix: break ChatView into isolated sub-views to eliminate scroll-triggered re-evaluation loop
+- refactor: dashboard layout — dual-column scroll, compact session rows, PRD board styling
+- fix: throttle @Observable mutations to eliminate main thread lockup
+- chore: mark prd-ios-session-first-nav as completed (4/4 stories)
+- feat: notification deep link to sessions tab (US-004)
+- feat: add unified new session sheet to Sessions tab (US-003)
+- feat: default to group-by-project, persist preference, sort by status (US-002)
+- feat: sessions as primary tab, repos tab removed (US-001)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-48.dmg" length="47310543" type="application/octet-stream" sparkle:edSignature="3Jc1sRK7/iImmVfpszb5FyNQ3N8dygPSgpZ9tEAp294bbDFChXUyXy0SaLwA3XNmI6OCcxjeQIUyYbIRAEDFDA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 13:29:22 +0000</pubDate>
       <sparkle:version>47</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
