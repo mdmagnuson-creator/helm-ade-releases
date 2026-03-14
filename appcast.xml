@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 11:55:35 +0000</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- chore: mark prd-ios-session-first-nav as completed (4/4 stories)
+- feat: notification deep link to sessions tab (US-004)
+- feat: add unified new session sheet to Sessions tab (US-003)
+- feat: default to group-by-project, persist preference, sort by status (US-002)
+- feat: sessions as primary tab, repos tab removed (US-001)
+- feat: redesign session categorization with in-tab/recent groups and add abandon session
+- fix: align dashboard stats bar session count with sessions section
+- feat: filter model list to show only GitHub Copilot provider models
+- fix: simplify gear button to post notification without tab switch
+- refactor: extract reusable ModelSelectionPopover component into HelmUI
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-44.dmg" length="47296866" type="application/octet-stream" sparkle:edSignature="G3pH1Po6wCu0R4kFfhPP9jQFhfLleU+fuoYEWlW1xOkF8se8+PWNCG7bZTR9H9OH4dmXswdzhgmTAswp+uHuDg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 00:49:35 +0000</pubDate>
       <sparkle:version>38</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
