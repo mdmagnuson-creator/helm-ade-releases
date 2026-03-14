@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 16:58:16 +0000</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: create UnifiedSessionRowView replacing all 4 session row variants (US-009)
+- feat: sub-group sessions by type within each group with lightweight sub-headers (US-008)
+- feat: collapsible groups showing first 2 sessions with expand/collapse (US-007)
+- feat: add By Desktop, By Helm User, By Organization grouping modes with orgName join (US-006)
+- feat: improve inspector UI and harden message REST decoding
+- feat: replace filter dropdown with Active/Paused/Team segmented toggle, remove org picker (US-005)
+- feat: reorder new session flow to Desktop → Repo → Type (US-004)
+- feat: three-tab navigation (Sessions + Scratchpad + PRDs) with new session button (US-003)
+- feat: sync session title from macOS to Supabase on SSE event (US-002)
+- fix: decode server diff format (file/before/after) in inspector Diff tab
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-62.dmg" length="47436507" type="application/octet-stream" sparkle:edSignature="2ZZh9XPUI3HhLigjcc4WEvTf9NQ8Zm9TUk1lSyujV/5IVITRgsblanzvxHKL9qtZfZJDZ5JG34/DFcnMnamZDQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 16:48:23 +0000</pubDate>
       <sparkle:version>61</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
