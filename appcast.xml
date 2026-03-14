@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 00:49:35 +0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- chore: mark prd-message-area-refinements as completed (13/13 stories)
+- feat: add centralized MarkdownStyleTokens with inline code background tint and enhanced heading/link/blockquote styling (US-013)
+- feat: add task delegation card with sub-agent activity display and live timer (US-012)
+- fix: keep attachment files on disk until tab close to prevent race condition (US-011)
+- feat: full-width user messages with shared markdown renderer and syntax highlighting (US-010)
+- feat: rename Signals to Signals and Actions with configure link (US-009)
+- feat: rename Tasks to Todos and make header always visible (US-008)
+- feat: wire up SSE token data to message metadata and show without context window (US-007)
+- feat: replace pulsing dot with animated colored block progress bar (US-006)
+- feat: simplify agent badge to plain text style (US-005)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-38.dmg" length="47251219" type="application/octet-stream" sparkle:edSignature="1T92hA88t12zWmD7d85viryVsGXw022YK0YyGZguuFkKMhy93yRNtsKkjawr7RroQ91A5YQ6S0mc2aKtOwBZBw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 13 Mar 2026 22:33:34 +0000</pubDate>
       <sparkle:version>37</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
