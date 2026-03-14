@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 19:19:07 +0000</pubDate>
+      <sparkle:version>67</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix(ci): scope manual signing settings to iphoneos SDK to avoid SPM conflicts
+- fix(ci): add DEVELOPMENT_TEAM for SPM dependency signing in manual mode
+- fix(dashboard): restyle + New PRD button to match + Session style and move to far right
+- fix(ci): switch TestFlight to manual signing with provisioning profile
+- fix(ci): remove -allowProvisioningUpdates from archive step to prevent certificate exhaustion
+- chore: mark prd-ios-sessions-polish as completed in registry (14/14 stories)
+- feat(ios): add ScratchpadListView with repo list and scratchpad indicators (US-014)
+- feat(ios): add session search with client-side filtering (US-013)
+- feat(ios): remove dead code — DesktopsTab, DesktopDetailView, ReposTab, RepoDetailView, old SessionDetailView and related components (US-012)
+- feat(ios): US-011 — Session detail redesign with chat-first and info menu
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-67.dmg" length="47442308" type="application/octet-stream" sparkle:edSignature="jHzIuht9J1YXSFXpGsysXHwrKPgoUC8vpLwa8S6escZ2vBB3mezlVF6PevnXUNaNnAsXs1KiYrbZMztuepDiBw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 19:10:46 +0000</pubDate>
       <sparkle:version>66</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
