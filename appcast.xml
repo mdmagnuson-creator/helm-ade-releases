@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 14:40:27 +0000</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: constrain progress bar to compact 120pt container with 40pt bounce indicator (TSK-003)
+- docs(prd): move ios-sessions-polish to ready
+- fix: progress bar width/stall, token count inflation, todo icon animation persistence (TSK-003, TSK-004)
+- fix: replace rainbow progress bar with single-color bounce indicator, move status row below input (TSK-002)
+- fix: persist message input draft text across dashboard navigation (TSK-001)
+- feat: question/option styling + fix inline code pill contrast
+- feat: rich markdown rendering — brighter text, code block contrast, inline code color variety
+- fix: break ChatView into isolated sub-views to eliminate scroll-triggered re-evaluation loop
+- refactor: dashboard layout — dual-column scroll, compact session rows, PRD board styling
+- fix: throttle @Observable mutations to eliminate main thread lockup
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-51.dmg" length="47311408" type="application/octet-stream" sparkle:edSignature="hmSzrpwjnWRtBnrCB/o9LUEWheQFJiG/5PqK2xr6kynXzOw26I7BkcZOYcwbrCXzIR+Jg+mjZdVRvkMjGMoJDA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 14:16:30 +0000</pubDate>
       <sparkle:version>49</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
