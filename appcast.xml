@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 16:09:55 +0000</pubDate>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: three-tab navigation (Sessions + Scratchpad + PRDs) with new session button (US-003)
+- feat: sync session title from macOS to Supabase on SSE event (US-002)
+- fix: decode server diff format (file/before/after) in inspector Diff tab
+- feat: add session_name column to sessions table and update Swift models (US-001)
+- feat: extract shared diff components, add FileEditCardBody, upgrade FileWriteCardBody, add DiffStore debug logging
+- docs(prd): add US-014 Scratchpad Tab, update US-003 to 3-tab nav
+- fix: full-width user messages, stop button in agent bar, softer bold text
+- fix: auto-scroll not reaching bottom at end of assistant responses
+- fix: session data persistence, tool card UX, and markdown rendering
+- fix: constrain progress bar to compact 120pt container with 40pt bounce indicator (TSK-003)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-58.dmg" length="47406604" type="application/octet-stream" sparkle:edSignature="edqo5w83I47k6quNe51wnFf2nSlWdLsK3xl+DBcZ7F6JuLGG2hEx2thniFuf79mhpLenpQw6qQoNTB/f6BJsBg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 15:50:43 +0000</pubDate>
       <sparkle:version>54</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
