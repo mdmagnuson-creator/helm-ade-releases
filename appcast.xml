@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 15:50:43 +0000</pubDate>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: extract shared diff components, add FileEditCardBody, upgrade FileWriteCardBody, add DiffStore debug logging
+- docs(prd): add US-014 Scratchpad Tab, update US-003 to 3-tab nav
+- fix: full-width user messages, stop button in agent bar, softer bold text
+- fix: auto-scroll not reaching bottom at end of assistant responses
+- fix: session data persistence, tool card UX, and markdown rendering
+- fix: constrain progress bar to compact 120pt container with 40pt bounce indicator (TSK-003)
+- docs(prd): move ios-sessions-polish to ready
+- fix: progress bar width/stall, token count inflation, todo icon animation persistence (TSK-003, TSK-004)
+- fix: replace rainbow progress bar with single-color bounce indicator, move status row below input (TSK-002)
+- fix: persist message input draft text across dashboard navigation (TSK-001)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-54.dmg" length="47383622" type="application/octet-stream" sparkle:edSignature="P8aCuvil4kUhNGmmkEu4WhnTWR7mjFDhnBdkX2aJDcfdX/GMQXmRxPO06PgKPK33mw4gXPGikbEcqz2ZBHoxCA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 15:12:55 +0000</pubDate>
       <sparkle:version>53</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
