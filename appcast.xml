@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 20:02:55 +0000</pubDate>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: filter dashboard sessions and PRDs to current project repo
+- feat: add desktop column to session rows showing which device each session is on
+- fix: wire activeTabSessionIds into stats bar and sessions section for accurate Active/Paused grouping
+- feat(dashboard): split sessions into Active/Paused groups based on tab state
+- fix(ci): patch project.pbxproj at build time to scope manual signing to HelmIOS target only
+- fix(ci): use PROVISIONING_PROFILE UUID instead of SPECIFIER to avoid SPM conflicts
+- fix(ci): use xcconfig for manual signing to scope settings properly
+- fix(ci): use automatic signing without -allowProvisioningUpdates to prevent cert creation
+- fix(ci): scope manual signing settings to iphoneos SDK to avoid SPM conflicts
+- fix(ci): add DEVELOPMENT_TEAM for SPM dependency signing in manual mode
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-71.dmg" length="47444068" type="application/octet-stream" sparkle:edSignature="w5MGDBY7mJBQOMpFUO4qFSwAEoK/RgROjoDKpSoxaVIQqlaxG+RvnxrrQTytbXL8M31he0V3pVNjZRqn4L8fCA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 19:53:29 +0000</pubDate>
       <sparkle:version>70</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
