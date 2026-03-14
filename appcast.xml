@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 14 Mar 2026 21:59:10 +0000</pubDate>
+      <sparkle:version>77</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: make device registration resilient to RLS/unique constraint issues
+- docs(prd): fix malformed prd-registry.json (helm-bridge-extensions entry was outside prds array)
+- fix: move background services to primary startup path after restoreSession
+- docs(prd): move prd-notes to ready
+- fix: wait for device registration before creating Supabase session
+- fix: abandon session in Supabase when closing tab with destroy branch
+- fix: backfill tabs missing Supabase sessions after device registration
+- fix: scope dashboard to current repo & treat stale sessions as paused
+- docs(prd): create draft notes
+- fix: filter dashboard sessions and PRDs to current project repo
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-77.dmg" length="47467436" type="application/octet-stream" sparkle:edSignature="ThHZst2FwLxbaRidxsIJSULl3K/p9UjeiXLeanYSnbOgYhLQCC7a4AeK+t5JinIOkW6NcPhSI9Ti9XPcsvG5Cg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 21:26:14 +0000</pubDate>
       <sparkle:version>76</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
