@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 14:23:37 +0000</pubDate>
+      <sparkle:version>100</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: add CPU/memory health monitor to preemptively restart opencode serve processes
+- docs(prd): refine draft living-memory — remove fallbacks, summarization uses session LLM provider
+- docs(prd): create draft workspace-task-management (22 stories, 7 phases)
+- fix: fetch messages on initial appear when navigating to restored session tab
+- fix: persist selected project and dashboard state across quit/relaunch
+- fix: dashboard sticks to first project's data & remove session dividers
+- chore: clarify postChangeActions to target only Debug app by DerivedData path
+- fix: prevent stale paused sessions and duplicate tabs from session ID mismatch
+- fix: prevent large structured dashboards from rendering as decorative banners (TSK-001)
+- chore: update postChangeActions to explicitly quit/relaunch Debug app around builds
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-100.dmg" length="48152090" type="application/octet-stream" sparkle:edSignature="wXMmIT9jT6JuOPAic2wB6H3BjwE2CdqOikYAG+MP0c8S8asy1pHh2zDpNVbN3D22O6uZZuCe4g5XNV/P+B5rCg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 13:03:56 +0000</pubDate>
       <sparkle:version>99</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
