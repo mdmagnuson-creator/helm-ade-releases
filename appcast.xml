@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 11:07:17 +0000</pubDate>
+      <sparkle:version>93</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: improve dashboard empty sessions state and remove completed PRD column
+- chore: remove file-based PRD artifacts — Supabase is single source of truth (US-013)
+- feat: rewrite iOS PRD tab with three-tab detail view and Supabase-powered stories (US-012)
+- feat: add HelmEventRouter for Realtime event dispatch to PRDStore (US-011)
+- feat: add per-story PRD detail view with three tabs and enhanced PRD cards (US-010)
+- feat: add PRDStore (Supabase-only) replacing PRDSyncManager consumers (US-009)
+- feat: add PRD event tools to helm-bridge plugin (US-006)
+- feat: add helm-bridge plugin with generic event bus and helm_events table (US-005)
+- feat: update Swift models for expanded prds schema, add PRDStoryModels (US-004)
+- feat: add one-time PRD data migration from files to Supabase (US-003)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-93.dmg" length="48085156" type="application/octet-stream" sparkle:edSignature="BPyRus1uYDAKM0ZNpPQtVm7eETwjLfkKqZVQIIvMDWshtRaYdxGbunUhZ57rT88yjY5qX6jXaKf67YiPF8ocDw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 04:23:27 +0000</pubDate>
       <sparkle:version>92</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
