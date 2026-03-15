@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 12:34:38 +0000</pubDate>
+      <sparkle:version>97</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: dashboard sticks to first project's data & remove session dividers
+- chore: clarify postChangeActions to target only Debug app by DerivedData path
+- fix: prevent stale paused sessions and duplicate tabs from session ID mismatch
+- fix: prevent large structured dashboards from rendering as decorative banners (TSK-001)
+- chore: update postChangeActions to explicitly quit/relaunch Debug app around builds
+- fix: restore tool call details on macOS session resume via Supabase fallback (TSK-004, TSK-005)
+- feat: improve dashboard empty sessions state and remove completed PRD column
+- chore: remove file-based PRD artifacts — Supabase is single source of truth (US-013)
+- feat: rewrite iOS PRD tab with three-tab detail view and Supabase-powered stories (US-012)
+- feat: add HelmEventRouter for Realtime event dispatch to PRDStore (US-011)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-97.dmg" length="48081283" type="application/octet-stream" sparkle:edSignature="Jdm0fq316QhJwDmc1IKoDPSgUniXBjolcONdLclaxPZ2r9ou4IbodfqGrunVvENGevGA8C4xIVichGPPOsH0DQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 12:21:02 +0000</pubDate>
       <sparkle:version>96</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
