@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 23:47:59 +0000</pubDate>
+      <sparkle:version>106</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: iOS todo display via Supabase Realtime in inspector panel (PIECE 8)
+- fix: statusIcon rendering — remove .symbolEffect from non-animated states (PIECE 7)
+- feat: wire SSE todoUpdated to TodoStore + Supabase sync (PIECEs 5+6)
+- feat: implement TodoSyncManager iOS Realtime subscription + polling (PIECE 4b)
+- feat: add TodoSyncManager for Supabase todo persistence (PIECE 4a)
+- feat: add todoUpdated case to ServerEvent enum
+- feat: add SessionTodo model to SupabaseModels
+- feat: add session_todos Supabase migration for todo persistence
+- fix: TSK-006 rework pulsating dot + dedup priority, plus all prior UI fixes
+- docs(prd): create draft project-settings-consolidation
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-106.dmg" length="48207602" type="application/octet-stream" sparkle:edSignature="oxKT9RVXqu8o9j4Yr+htM0ql+YZ7EPvTGfCCsAiDtBoND8CLwgE3oLBmq1d3+XBReRdlL9Rrdl3jkpcNYf7LCA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 22:24:01 +0000</pubDate>
       <sparkle:version>105</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
