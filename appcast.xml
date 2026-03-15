@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 00:46:21 +0000</pubDate>
+      <sparkle:version>78</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: iPad two-column notes layout (US-014)
+- feat: remove all scratchpad dead code (US-013)
+- feat: iOS note editor view with share, pin/delete, date stamp, auto-save, and conflict detection (US-011)
+- feat: iOS notes list view with repo picker, grouped notes, tab/sidebar integration (US-010)
+- feat: notes list view macOS panel with grouped list and side-by-side editor (US-009)
+- feat: file attachment pill display for macOS and iOS (US-008)
+- feat: add inline image support with camera, photo library, and file picker to iOS editor (US-007)
+- feat: add inline image support with drag-drop and file picker to macOS editor (US-006)
+- feat: add iOS rich text editor with inputAccessoryView toolbar and NoteBlock binding (US-005)
+- feat: add macOS rich text editor with formatting toolbar and NoteBlock binding (US-004)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-78.dmg" length="47773740" type="application/octet-stream" sparkle:edSignature="ryITYSzx/EHK71Gu1wtoEfZgOjz+VZDveYp2pOD+A8a56rnfFT3v1IVGcYY0zsLW20vNu48O+orwlJCUMIgYAQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 14 Mar 2026 21:59:10 +0000</pubDate>
       <sparkle:version>77</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
