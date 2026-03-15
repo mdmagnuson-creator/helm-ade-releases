@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 03:26:50 +0000</pubDate>
+      <sparkle:version>88</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: add helm-bridge plugin with generic event bus and helm_events table (US-005)
+- feat: update Swift models for expanded prds schema, add PRDStoryModels (US-004)
+- feat: add one-time PRD data migration from files to Supabase (US-003)
+- feat: create prd_stories table with RLS, triggers, indexes, Realtime (US-002)
+- feat: expand prds table with content, notes, phases, stories columns (US-001)
+- fix: render tool call cards on assistant messages in macOS chat view
+- fix: resolve 9 iOS note editing bugs — dark mode colors, heading detection, tap targets, camera, photos, duplicate date, paragraph layout
+- fix: constrain NSTextView editor width to prevent overflow in notes panel
+- fix: constrain note editor width to scroll view bounds on macOS
+- fix: use explicit TextKit 1 stack for HelmNoteTextView to fix empty editor
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-88.dmg" length="47924525" type="application/octet-stream" sparkle:edSignature="T+LMtTTjZtWYy7nSN/Bc/+QHIVcAp0BqCMUiujYtXsuidbnXKD9HsTiragdDM1ToJmeuQ2HDrNPKGtTGL916Cw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 03:16:59 +0000</pubDate>
       <sparkle:version>87</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
