@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 02:37:21 +0000</pubDate>
+      <sparkle:version>85</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: render tool call cards on assistant messages in macOS chat view
+- fix: resolve 9 iOS note editing bugs — dark mode colors, heading detection, tap targets, camera, photos, duplicate date, paragraph layout
+- fix: constrain NSTextView editor width to prevent overflow in notes panel
+- fix: constrain note editor width to scroll view bounds on macOS
+- fix: use explicit TextKit 1 stack for HelmNoteTextView to fix empty editor
+- fix: resolve crash in HelmNoteTextView init by using designated initializer
+- fix: conflict alert triggering on own saves in iOS note editor
+- feat: iPad two-column notes layout (US-014)
+- feat: remove all scratchpad dead code (US-013)
+- feat: iOS note editor view with share, pin/delete, date stamp, auto-save, and conflict detection (US-011)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-85.dmg" length="47784253" type="application/octet-stream" sparkle:edSignature="b1TbzhvGO6C2dSd5IgqT+JN3oFJvrmoPMSMF3zxZpi4gfKL1ret4pj2QqDpsqtM7k0z49800I9gDKb/RuR9YBA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 02:22:30 +0000</pubDate>
       <sparkle:version>84</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
