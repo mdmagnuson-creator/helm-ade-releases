@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 15:15:07 +0000</pubDate>
+      <sparkle:version>104</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- FIX-032: Fix SwiftUI scroll lockup — replace GeometryReader with onGeometryChange
+- FIX-031: Fix SSE reconnection failure after app relaunch
+- docs(prd): refine draft living-memory — US-008 server-side dedup, default user_project ownership, entity cache; add dedup AC to US-013
+- fix: replace PreferenceKey scroll tracking with onAppear/onDisappear to eliminate layout loop
+- docs(prd): refine draft living-memory — US-005 HNSW index, US-006 database trigger, US-007 entity linking + both messages
+- fix: break SwiftUI render loop in ChatMessageListView scroll handling
+- fix: add CPU/memory health monitor to preemptively restart opencode serve processes
+- docs(prd): refine draft living-memory — remove fallbacks, summarization uses session LLM provider
+- docs(prd): create draft workspace-task-management (22 stories, 7 phases)
+- fix: fetch messages on initial appear when navigating to restored session tab
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-104.dmg" length="48108859" type="application/octet-stream" sparkle:edSignature="zL3nTPcSwAwQPIDaMeGdoPvhH4KTFII+nMTVyiEfleatkQMopt2rKYlU6d43ToUGDmAakSsBI1Zn1NJIOzfeCg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 15:05:50 +0000</pubDate>
       <sparkle:version>103</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
