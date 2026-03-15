@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 22:24:01 +0000</pubDate>
+      <sparkle:version>105</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: TSK-006 rework pulsating dot + dedup priority, plus all prior UI fixes
+- docs(prd): create draft project-settings-consolidation
+- docs(prd): refine draft living-memory — add US-004 Helm Session Identity Layer (pending approval), update US-009 Copilot API, US-010 DAG expansion; 5 open review questions on US-004
+- docs(prd): refine draft living-memory — add US-024 (Org Settings View), US-025 (Signal Settings migration), FR-18 (model validation), signal_extraction_model to US-006; update counts to 21 settings / 25 stories
+- FIX-032: Fix SwiftUI scroll lockup — replace GeometryReader with onGeometryChange
+- FIX-031: Fix SSE reconnection failure after app relaunch
+- docs(prd): refine draft living-memory — US-008 server-side dedup, default user_project ownership, entity cache; add dedup AC to US-013
+- fix: replace PreferenceKey scroll tracking with onAppear/onDisappear to eliminate layout loop
+- docs(prd): refine draft living-memory — US-005 HNSW index, US-006 database trigger, US-007 entity linking + both messages
+- fix: break SwiftUI render loop in ChatMessageListView scroll handling
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-105.dmg" length="48152839" type="application/octet-stream" sparkle:edSignature="P9LpaEhgtD8b0+KAfZleX44+f0lBTGUYt6prFGvXDnI8shmmRlXmXtH9n0HDY+O4OyJM4xSPevaxoXRFmNDHCw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 15:15:07 +0000</pubDate>
       <sparkle:version>104</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
