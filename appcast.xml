@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 15 Mar 2026 14:31:35 +0000</pubDate>
+      <sparkle:version>101</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: break SwiftUI render loop in ChatMessageListView scroll handling
+- fix: add CPU/memory health monitor to preemptively restart opencode serve processes
+- docs(prd): refine draft living-memory — remove fallbacks, summarization uses session LLM provider
+- docs(prd): create draft workspace-task-management (22 stories, 7 phases)
+- fix: fetch messages on initial appear when navigating to restored session tab
+- fix: persist selected project and dashboard state across quit/relaunch
+- fix: dashboard sticks to first project's data & remove session dividers
+- chore: clarify postChangeActions to target only Debug app by DerivedData path
+- fix: prevent stale paused sessions and duplicate tabs from session ID mismatch
+- fix: prevent large structured dashboards from rendering as decorative banners (TSK-001)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-101.dmg" length="48153237" type="application/octet-stream" sparkle:edSignature="ny8DY2U5qwVS/syDVWWWLGGxMuJ1JuSYznVBADBamHCJUYpKvAKgOoe5BcroqIDm20c5+hIuj6d+o2Zc0z43CA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 15 Mar 2026 14:23:37 +0000</pubDate>
       <sparkle:version>100</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
