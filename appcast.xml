@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 22:45:31 +0000</pubDate>
+      <sparkle:version>150</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: reactivate PRD also reactivates abandoned sessions as paused, widen activeSession to include paused (TSK-017)
+- docs(prd): move workspaces-and-providers to ready
+- feat: add Open Planner session menu item to PRD detail view (TSK-016)
+- docs(prd): resolve all open questions — model discovery, key rotation
+- docs(prd): fix 11 consistency issues across workspaces-and-providers
+- docs(prd): fix story count to 12 for workspaces-and-providers
+- docs(prd): refine US-008 through US-012 in workspaces-and-providers
+- feat: add Open PRD detail and Open Planner session to PRD card/row menus (TSK-012)
+- feat: add Reactivate option on abandoned PRDs to set status back to draft (TSK-007)
+- feat: abandon PRD also abandons sessions and closes tabs, with real-time dashboard refresh (TSK-006, TSK-008)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-150.dmg" length="48708181" type="application/octet-stream" sparkle:edSignature="oyhQO8UWa3fwc3S8DFR6AesXTD6th4QMaLpXDZqmVMi6tQ2/D2quaNwJ2Qwsw7VoooJRgVy1EbIv85pI5jIABA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 21:48:09 +0000</pubDate>
       <sparkle:version>145</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
