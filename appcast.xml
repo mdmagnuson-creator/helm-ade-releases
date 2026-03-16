@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 21:48:09 +0000</pubDate>
+      <sparkle:version>145</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: PRD card click opens detail view instead of session (TSK-014)
+- fix: pass contentMarkdown and other fields through PRDWithOrg to RemotePRD (TSK-013)
+- refactor: remove Helm Assistant Model setting and LLM name generation, add session→PRD title sync via SSE (TSK-015, TSK-011)
+- fix: add modal padding and improve Create PRD button contrast (TSK-009, TSK-010)
+- feat: seed planner session with PRD description and use generated name as tab title (TSK-004)
+- docs(prd): create draft workspaces-and-providers
+- feat: generate PRD name via LLM using Helm Assistant Model with fallback (TSK-003)
+- feat: add menu icon with Abandon option on PRD rows, cards, and detail view (TSK-001)
+- docs(prd): refine project-settings-consolidation — amend US-002/003/011 for settings-change regeneration
+- feat: add Helm Assistant Model setting to Project Settings with Supabase persistence (TSK-002)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-145.dmg" length="48643238" type="application/octet-stream" sparkle:edSignature="8UbPvzc3eJVbYNyXLgc8hGbIqsfsX6xnedG9PdSBRkjY8Chb8dXpXxPOXPPfxp82KZkatszLdeL70u9JOBZbDA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 21:11:05 +0000</pubDate>
       <sparkle:version>141</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
