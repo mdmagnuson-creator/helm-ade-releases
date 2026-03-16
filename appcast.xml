@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 14:20:24 +0000</pubDate>
+      <sparkle:version>133</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: AppKit tab container + ScrollView-measured message width
+- feat: unify PRD + session creation so PRDs always get linked sessions
+- fix: use explicit fixed height (36pt) on all section headers for exact consistency
+- fix: add Active header top spacing and consistent section header heights
+- feat: 3-column dashboard layout, top-aligned rows, You badge in activity
+- fix: merge target branch for trunk projects, 4-column dashboard, text wrapping
+- perf: reduce tab switch freezes with caching and view preservation
+- feat: filter session branches from picker, persist merge strategy, show completed sessions on dashboard
+- fix: coordinated tool card expansion, task card running content, token counter revert, stale diff badge
+- fix: inject WorktreeManager into SwiftUI environment to prevent crash (TSK-007)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-133.dmg" length="48565236" type="application/octet-stream" sparkle:edSignature="zVXo1t/SRo6b9xoLWybBFVIMhwvjJ+vqgtPclWgLTLnCxe0MQgHMrsxi4fGrqHC/P2fdQM83r4AxJMY47DTlCQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 13:50:26 +0000</pubDate>
       <sparkle:version>132</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
