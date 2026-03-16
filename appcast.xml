@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 21:11:05 +0000</pubDate>
+      <sparkle:version>141</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: seed planner session with PRD description and use generated name as tab title (TSK-004)
+- docs(prd): create draft workspaces-and-providers
+- feat: generate PRD name via LLM using Helm Assistant Model with fallback (TSK-003)
+- feat: add menu icon with Abandon option on PRD rows, cards, and detail view (TSK-001)
+- docs(prd): refine project-settings-consolidation — amend US-002/003/011 for settings-change regeneration
+- feat: add Helm Assistant Model setting to Project Settings with Supabase persistence (TSK-002)
+- feat: remove push/pull toolbar icons for all session types (TSK-005)
+- fix: remove explicit width measurement entirely — let natural layout handle message shrinking
+- fix: message area width ratchet — measure parent-proposed width outside ScrollView hierarchy
+- docs(prd): move project-settings-consolidation to ready
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-141.dmg" length="48654124" type="application/octet-stream" sparkle:edSignature="ne2VemtZ21rYPB6O4r/iSHZlaSSb47YtJue8uE+Hef9WcEaoMMeNk/r4NGOvD6I9w43TnnxyH/cDZXnSZsMuAg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 20:37:26 +0000</pubDate>
       <sparkle:version>140</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
