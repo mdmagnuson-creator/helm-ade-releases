@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 01:28:44 +0000</pubDate>
+      <sparkle:version>108</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: persist completed todos across session, show removed section for dropped non-completed todos
+- fix(ios): add segmented Todos/Signals toggle and Working/Completed section headers to inspector
+- fix: show context window input tokens instead of cumulative total in token counter
+- fix: include status in statusIcon .id() to stop pulse animation persisting on completed todos
+- feat: iOS todo display via Supabase Realtime in inspector panel (PIECE 8)
+- fix: statusIcon rendering — remove .symbolEffect from non-animated states (PIECE 7)
+- feat: wire SSE todoUpdated to TodoStore + Supabase sync (PIECEs 5+6)
+- feat: implement TodoSyncManager iOS Realtime subscription + polling (PIECE 4b)
+- feat: add TodoSyncManager for Supabase todo persistence (PIECE 4a)
+- feat: add todoUpdated case to ServerEvent enum
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-108.dmg" length="48222275" type="application/octet-stream" sparkle:edSignature="3DhdPi4UVfqmgFe67Mhy/w+k52cntm02SrRysgYczw0pH6qkzQQ8W2b13XuLJxCAFGA7ceOBbl/KuyJ/HD35DA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 00:55:05 +0000</pubDate>
       <sparkle:version>107</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
