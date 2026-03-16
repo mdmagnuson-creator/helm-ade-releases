@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 04:13:19 +0000</pubDate>
+      <sparkle:version>120</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: diff modal fills window, remove horizontal scroll, filter metadata
+- fix: lift sheet state from popover to TabItemView to fix sheet-from-popover lifecycle bug (TSK-006)
+- fix: rewrite side-by-side diff view for proper Before/After alignment
+- fix(ios): convert device selector from interactive dropdown to display text
+- fix: widen diff viewer modal for better code readability
+- fix: remove status pills from dashboard session rows
+- feat: add merge conflict error handling with abort & restore (TSK-005)
+- feat: add Complete & Merge UI to session tab close popover (TSK-004)
+- feat: add completeAndMergeTab orchestration (TSK-003)
+- feat: add merge/squash/rebase git infrastructure (TSK-002)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-120.dmg" length="48405260" type="application/octet-stream" sparkle:edSignature="E/mMltwEsfMeB8KcbTundyPTRRiFD4FfiBc0ihmarpk4eAZO0B8tLqij+A7z83Zi5hDa6yY1MPyXvbhOTdyECA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 02:09:34 +0000</pubDate>
       <sparkle:version>109</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
