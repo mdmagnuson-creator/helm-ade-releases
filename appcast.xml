@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 14:40:35 +0000</pubDate>
+      <sparkle:version>134</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: move width measurement outside ScrollView to fix message resize ratchet
+- docs(prd): refine project-settings-consolidation — fix 8 review issues
+- fix: iOS build error — fileprivate access for CreateStep enum in PRDEditorView
+- docs(prd): refine draft project-settings-consolidation
+- feat: AppKit tab container + ScrollView-measured message width
+- feat: unify PRD + session creation so PRDs always get linked sessions
+- fix: use explicit fixed height (36pt) on all section headers for exact consistency
+- fix: add Active header top spacing and consistent section header heights
+- feat: 3-column dashboard layout, top-aligned rows, You badge in activity
+- fix: merge target branch for trunk projects, 4-column dashboard, text wrapping
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-134.dmg" length="48565713" type="application/octet-stream" sparkle:edSignature="YLc8h90PGK8PQPShYUlTitktJ0i7b5FGXK6KNizLW9+TIqmCLT6ZKe8QKjQSHByEWQLC+tqAZHs5ObU6cg9BCQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 14:20:24 +0000</pubDate>
       <sparkle:version>133</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
