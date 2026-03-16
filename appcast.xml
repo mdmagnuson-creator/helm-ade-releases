@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 16 Mar 2026 12:23:24 +0000</pubDate>
+      <sparkle:version>129</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: 3-column dashboard layout, top-aligned rows, You badge in activity
+- fix: merge target branch for trunk projects, 4-column dashboard, text wrapping
+- perf: reduce tab switch freezes with caching and view preservation
+- feat: filter session branches from picker, persist merge strategy, show completed sessions on dashboard
+- fix: coordinated tool card expansion, task card running content, token counter revert, stale diff badge
+- fix: inject WorktreeManager into SwiftUI environment to prevent crash (TSK-007)
+- fix: resize diff sheet via NSWindow, fix layout gaps
+- fix: diff modal fills window via large ideal sizes, tighten header padding
+- feat: redesign CompleteAndMergeSheet UI with target branch selector (TSK-007)
+- fix: diff modal fills window, remove horizontal scroll, filter metadata
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-129.dmg" length="48473218" type="application/octet-stream" sparkle:edSignature="nGQzy2Dh5WxN5jQC+b33x1JDftzmiAIXtkI/moePURj4U/0KnVkQNgon71I9MKOgZEG0eVfLdLpAi3RSc8PSDw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 11:41:09 +0000</pubDate>
       <sparkle:version>128</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
