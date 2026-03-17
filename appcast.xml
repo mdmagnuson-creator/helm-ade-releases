@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 17 Mar 2026 05:19:01 +0000</pubDate>
+      <sparkle:version>167</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: full-width clickable sidebar rows + GitHub Copilot note in providers
+- fix: settings sidebar — replace NavigationSplitView with HStack for edge-to-edge background
+- fix: settings sidebar layout — wider sidebar, remove toggle, fix toolbar overlap
+- fix: use @Environment(\.openSettings) for reliable settings window opening
+- fix: restore settings gear icon and ⌘, shortcut functionality
+- chore: mark PRD prd-workspaces-and-providers as complete (12/12 stories)
+- feat(US-010,US-011,US-012): Settings Navigation Restructure + User & Org Settings
+- feat(US-009): Sidebar Workspace Grouping
+- feat(US-008): Create and Manage Workspaces
+- feat(US-007): Feed Non-Copilot Providers to opencode serve
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-167.dmg" length="50560784" type="application/octet-stream" sparkle:edSignature="ao9wdut8tGnCvlZqaJPzxCBz5uapbwnRJ0iu1GCfmTm6M3AN7+3nuYXx+6nqy0fAP8IpNcJddQ6BRYqlhT0zBg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 17 Mar 2026 03:42:44 +0000</pubDate>
       <sparkle:version>163</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
