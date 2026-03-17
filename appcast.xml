@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 17 Mar 2026 12:18:58 +0000</pubDate>
+      <sparkle:version>171</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: workspace color cycling + fetch workspaces on sidebar appear
+- fix: edit workspace sheet appears empty + Escape dismissal
+- fix: workspace_projects column name added_at → created_at
+- feat: show GitHub Copilot as built-in provider in My Providers list
+- fix: full-width clickable sidebar rows + GitHub Copilot note in providers
+- fix: settings sidebar — replace NavigationSplitView with HStack for edge-to-edge background
+- fix: settings sidebar layout — wider sidebar, remove toggle, fix toolbar overlap
+- fix: use @Environment(\.openSettings) for reliable settings window opening
+- fix: restore settings gear icon and ⌘, shortcut functionality
+- chore: mark PRD prd-workspaces-and-providers as complete (12/12 stories)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-171.dmg" length="50554150" type="application/octet-stream" sparkle:edSignature="ERnEx9c/tI37V4WNnlznC95xnp96TYgspg5gecdK9PZIcpRt17/ZmUZtgvmjMyhecvl1P9dzTIsG9VmVbeKTBw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 17 Mar 2026 05:19:01 +0000</pubDate>
       <sparkle:version>167</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
