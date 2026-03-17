@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 17 Mar 2026 00:42:05 +0000</pubDate>
+      <sparkle:version>160</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: resign first responder from hidden tabs to prevent cross-session message routing (TSK-001)
+- chore: split postChangeActions — commit per story, push+rebuild only on all complete
+- feat: add deprecation guard with _generated marker to project.json output (US-011)
+- feat: add Advanced settings tab with auth config, planning considerations, related projects, and raw JSON editor (US-010)
+- feat: add Apps settings tab with dynamic app cards, devices list, and build key exclusion (US-009)
+- feat: add Stack & Capabilities settings tab with platform picker, capabilities toggles, and integrations list (US-008)
+- feat: add Build & Test settings tab with dynamic commands, test frameworks, and verification toggles (US-007)
+- feat: add Git & Workflow settings tab with branch config and team sync (US-006)
+- feat: add description and conventions path fields to Project settings tab (US-005)
+- feat: add ProjectConfigFileWriter for generating docs/project.json from Supabase (US-003)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-160.dmg" length="49482274" type="application/octet-stream" sparkle:edSignature="UPChz51gdRhoWgg/4KiemKhQruGYQOYYkst2Q6Ok6bpaSSkvDnnb8tehhOSQm+hqJ4nZpamXuSiwo3OlPIOZCQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 16 Mar 2026 23:34:39 +0000</pubDate>
       <sparkle:version>159</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
