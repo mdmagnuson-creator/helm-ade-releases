@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 17 Mar 2026 03:42:44 +0000</pubDate>
+      <sparkle:version>163</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: restore settings gear icon and ⌘, shortcut functionality
+- chore: mark PRD prd-workspaces-and-providers as complete (12/12 stories)
+- feat(US-010,US-011,US-012): Settings Navigation Restructure + User & Org Settings
+- feat(US-009): Sidebar Workspace Grouping
+- feat(US-008): Create and Manage Workspaces
+- feat(US-007): Feed Non-Copilot Providers to opencode serve
+- feat(US-006): Restructured Model Picker with org-grouped sections
+- feat(US-005): Org Policy — Allow/Restrict Personal Providers
+- feat(US-004): User-Level Provider Management
+- feat(US-003): Org-Level Provider Management
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-163.dmg" length="50549406" type="application/octet-stream" sparkle:edSignature="YCr2qhDRl/awoWSl4CiDLHcWe15fJOGGnmnvDT6zf2cyrjqshd2UDHqbymViVTdrUM5BFPitvuAtBtsHcp8lAA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 17 Mar 2026 03:27:15 +0000</pubDate>
       <sparkle:version>162</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
