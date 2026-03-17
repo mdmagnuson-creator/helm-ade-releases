@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 17 Mar 2026 23:09:27 +0000</pubDate>
+      <sparkle:version>173</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: use predicate wait for model picker label to settle
+- fix: move findRailGearButton to base class with wait-for-rail logic
+- fix: stabilize close button and gear icon test selectors
+- fix: workspace collapse/expand + add Tasks 13-16 XCUITests
+- test: add ModelPickerUITests for Task 12 — all 8 tests passing
+- feat: add drag-drop and context menu XCUITests (Tasks 10-11)
+- test: add Tasks 3-9 XCUITests, fix workspace header display bug
+- test: add SidebarRailUITests for Task 2 - Gear Icon in Sidebar Rail (4 tests passing)
+- feat: add Mark Ready action for draft PRDs across all dashboard views
+- test: add SettingsUITests for Task 1 - Settings Navigation (7 tests passing)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-173.dmg" length="50572283" type="application/octet-stream" sparkle:edSignature="MYJc8/DuIfLS/Cw2cVmPNqHv+u/mGqlyvlvrObc6bzlrP1twCOU/SUN91Iw8DBEjBzoH92JqxruZ8oDPfeYRCw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 17 Mar 2026 16:24:55 +0000</pubDate>
       <sparkle:version>172</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
