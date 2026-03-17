@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 17 Mar 2026 16:24:55 +0000</pubDate>
+      <sparkle:version>172</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: add Mark Ready action for draft PRDs across all dashboard views
+- test: add SettingsUITests for Task 1 - Settings Navigation (7 tests passing)
+- test: add HelmADEUITests UI test target with base test class
+- docs: add explicit 4-step test workflow to handoff file
+- docs: add session handoff file for test walkthrough continuation
+- fix: workspace creation now adds sidebar_items entry + context menu works
+- fix: move settings close button to top-left sidebar to avoid overlap
+- fix: add close button to settings sheet
+- fix: move settings from separate window to in-app sheet
+- fix: workspace color cycling + fetch workspaces on sidebar appear
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-172.dmg" length="50570751" type="application/octet-stream" sparkle:edSignature="Mas0rSy0bmiEykLIwiyJ956RYuv1HfYj4FxYHQ4OzLS/ZzjwfMV0RIM9wZydd5RPZU97q2q0VYoOmU3aOWV4Cw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 17 Mar 2026 12:18:58 +0000</pubDate>
       <sparkle:version>171</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
