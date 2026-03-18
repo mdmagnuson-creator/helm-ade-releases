@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Wed, 18 Mar 2026 23:39:29 +0000</pubDate>
+      <sparkle:version>178</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: add Remove Project to macOS context menu with full cleanup
+- fix: iOS note editor — tapping blank space below text now places cursor
+- fix: derive note titles from first 50 chars of text content (TSK-004)
+- refactor: strip rich text formatting from notes, switch to plain monospace editor
+- test: add functional XCUITests for all project settings tabs (38 tests, 6 app fixes)
+- test: complete XCUITests for all 7 project settings tabs (35/35 passing)
+- docs: add complete new-machine setup instructions to HANDOFF.md
+- test: scaffold project settings XCUITests with accessibility identifiers and session handoff
+- fix: use predicate wait for model picker label to settle
+- fix: move findRailGearButton to base class with wait-for-rail logic
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-178.dmg" length="50610384" type="application/octet-stream" sparkle:edSignature="QWE6EJEbEk4/LLaYpaFIRTTcXrAcQsnKFTCic7PALDHuMcwR0L0hyZsnDeqgHnJ2ivXYf9UfMMzfc+0R16KEDg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Wed, 18 Mar 2026 21:00:42 +0000</pubDate>
       <sparkle:version>177</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
