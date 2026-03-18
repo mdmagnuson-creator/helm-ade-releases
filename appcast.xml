@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Wed, 18 Mar 2026 19:40:22 +0000</pubDate>
+      <sparkle:version>176</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- refactor: strip rich text formatting from notes, switch to plain monospace editor
+- test: add functional XCUITests for all project settings tabs (38 tests, 6 app fixes)
+- test: complete XCUITests for all 7 project settings tabs (35/35 passing)
+- docs: add complete new-machine setup instructions to HANDOFF.md
+- test: scaffold project settings XCUITests with accessibility identifiers and session handoff
+- fix: use predicate wait for model picker label to settle
+- fix: move findRailGearButton to base class with wait-for-rail logic
+- fix: stabilize close button and gear icon test selectors
+- fix: workspace collapse/expand + add Tasks 13-16 XCUITests
+- test: add ModelPickerUITests for Task 12 — all 8 tests passing
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-176.dmg" length="50613012" type="application/octet-stream" sparkle:edSignature="RuvY3H379FEMegC03VB0/MAi0mkIKWzI+M/aWZSYuiADB3ikd9SuKGfSINWl/M2Em0zI+kYakoSovDFa/l9CDg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Wed, 18 Mar 2026 10:45:20 +0000</pubDate>
       <sparkle:version>175</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
