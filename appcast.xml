@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 20 Mar 2026 21:54:12 +0000</pubDate>
+      <sparkle:version>179</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: add Helm Assistant with conversational chat panel, settings tools, and ⌘K integration (US-NEW-W)
+- feat: add label management UI with CRUD operations, color picker, and repo settings integration (US-037)
+- feat: add helm_search_context tool for agent semantic search of project artifacts (US-034)
+- feat: add global semantic search UI with ⌘K command palette, keyword fallback, and Edge Function (US-033)
+- feat: add pgvector embedding pipeline with migration, RLS, similarity search, and Edge Function (US-032)
+- feat: add automated test writing and execution tools with auto-fix loop in plugin (US-NEW-A)
+- feat: add session activity pulse with heartbeat events, pulse dots, and activity indicators (US-029)
+- feat: add activity log capture hooks for session lifecycle, file changes, and test results (US-028)
+- feat: add automatic status transitions hook with session lifecycle guards and QA signal tool (US-027)
+- feat: add task context injection hook with mode-aware formatting and dynamic updates (US-026)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-179.dmg" length="53941825" type="application/octet-stream" sparkle:edSignature="o0TJ6vM7mESQ1Vg01fqdxR6OXXWBo8ZjtMkgrB+Dfl213AY0gbabB3QMAgFRh85bdxBps3FMcWLYdcu949ZfCQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Wed, 18 Mar 2026 23:39:29 +0000</pubDate>
       <sparkle:version>178</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
