@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 21 Mar 2026 14:49:37 +0000</pubDate>
+      <sparkle:version>181</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: add 550+ accessibility identifiers across entire UI for XCUI testability
+- docs(prd): resolve design questions Q1-Q5 in prd-living-memory
+- docs(prd): revise living-memory stories for L0/L1/L2 + context shedding architecture
+- docs(prd): save planner state — context-window architecture discussion progress
+- docs(prd): add context-window-as-working-memory architecture to prd-living-memory
+- fix(US-001): fix XCUI tests — open session tab for antenna, target real ProjectOverviewView
+- feat(US-001): target flooringsoft-scheduler project and add Supabase data seeding to XCUI tests
+- feat(US-001): add XCUI test script and update testing tasks for Plugin SDK Migration
+- fix: task creation modal stays open with inline progress for single-task flow
+- feat: add Helm Assistant with conversational chat panel, settings tools, and ⌘K integration (US-NEW-W)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-181.dmg" length="55141031" type="application/octet-stream" sparkle:edSignature="7Favtwe+5AYTo6f93Hub71L+fOr1aR58uThviK6XJ/2/soEIMXd1n34RNn/nCzZBXYyfZ/sUNKdq9H0+TlDeAQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 21 Mar 2026 12:33:38 +0000</pubDate>
       <sparkle:version>180</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
