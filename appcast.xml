@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 21 Mar 2026 12:33:38 +0000</pubDate>
+      <sparkle:version>180</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix(US-001): fix XCUI tests — open session tab for antenna, target real ProjectOverviewView
+- feat(US-001): target flooringsoft-scheduler project and add Supabase data seeding to XCUI tests
+- feat(US-001): add XCUI test script and update testing tasks for Plugin SDK Migration
+- fix: task creation modal stays open with inline progress for single-task flow
+- feat: add Helm Assistant with conversational chat panel, settings tools, and ⌘K integration (US-NEW-W)
+- feat: add label management UI with CRUD operations, color picker, and repo settings integration (US-037)
+- feat: add helm_search_context tool for agent semantic search of project artifacts (US-034)
+- feat: add global semantic search UI with ⌘K command palette, keyword fallback, and Edge Function (US-033)
+- feat: add pgvector embedding pipeline with migration, RLS, similarity search, and Edge Function (US-032)
+- feat: add automated test writing and execution tools with auto-fix loop in plugin (US-NEW-A)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-180.dmg" length="54966133" type="application/octet-stream" sparkle:edSignature="owdzgg5MikjbHjuayr1NZW5Bwh0mntnJ0YG1oHwxL3UPXibsb2JC3oxjSz//ZwRX92CPw3AaqXAYF2tIijfNAg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 20 Mar 2026 21:54:12 +0000</pubDate>
       <sparkle:version>179</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
