@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 22 Mar 2026 11:17:22 +0000</pubDate>
+      <sparkle:version>182</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: org icon upload — Supabase migration, storage bucket, upload UI in settings, display in rail and settings sidebar (TSK-004)
+- feat: org rail shows building icon for GitHub orgs, person icon for personal orgs (TSK-003)
+- fix: workspace project reorder now persists correctly, same-workspace drag skips unnecessary add/remove (TSK-002)
+- fix: drag-and-drop unconnected repos onto workspaces now shows them correctly (TSK-001)
+- fix: persistent drag-drop ordering via sidebar_items, fix workspace reorder queries, fix workspace-to-ungrouped moves
+- fix: redesign drag-and-drop to use insertion zones between projects instead of row-level drop targets
+- feat: add insertion position indicator for project drag reordering
+- feat: drag-and-drop visual feedback, remote project drops, stacked add buttons, section separator
+- feat: sidebar improvements — ungrouped sort, split add buttons, workspace drag reorder, project drag between workspaces, per-org project memory
+- feat: move settings/assistant/bell to org rail, add org name header + link account button
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-182.dmg" length="55057030" type="application/octet-stream" sparkle:edSignature="Dts22d2sRYkhITXkcUaK2bO7F+DPXQSuiUJcE44LR70CQh1wU+6MEzLjXF3c9/+cklgQdPgYva0/qAmN1rYUAQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 21 Mar 2026 14:49:37 +0000</pubDate>
       <sparkle:version>181</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
