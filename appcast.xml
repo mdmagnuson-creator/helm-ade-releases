@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 22 Mar 2026 15:14:26 +0000</pubDate>
+      <sparkle:version>184</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- docs(prd): refine US-029/US-030, create prd-org-toolkit-customization, reconcile story count
+- fix: hide source picker in onboarding when project already cloned (FIX-016b)
+- fix: post-clone wizard skip step 1, remove mock dashboard data, resume onboarding (FIX-016/017/018)
+- fix: re-authorize modal stuck on loading spinner (FIX-015)
+- feat: detect stale OAuth scopes and prompt re-authorization (FIX-014)
+- fix: read OAuth scopes from GitHub token response, not static config (FIX-013)
+- fix: resolve correct GitHub token for org repo cloning (FIX-012)
+- FIX-010/011: Drop one-personal-per-user index, fix empty org description, add sync logging
+- docs(prd): add Phase 6 behavioral learning to living-memory, create sentinel skeleton draft
+- fix: org upsert RLS fallback for re-linked accounts, post-link immediate sync, rename Accounts to GitHub Accounts, remove Primary badge
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-184.dmg" length="55169559" type="application/octet-stream" sparkle:edSignature="JSTuDrCI4o8Uc7DIpiQ/Bu2KDCSmga/B/N9V5AgNGxkCHj8p2NcgWItpBw2BYll+jpAXa2n5J5n3b0p5lLM3BA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 22 Mar 2026 12:41:36 +0000</pubDate>
       <sparkle:version>183</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
