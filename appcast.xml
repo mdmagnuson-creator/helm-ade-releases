@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 23 Mar 2026 10:39:21 +0000</pubDate>
+      <sparkle:version>191</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: column resize compounding delta, edit mode layout shift, and persistence RLS auth
+- docs(prd): create draft assistant-first
+- chore: finalize dashboard-grid session — all 6 stories complete
+- feat: wire ProjectGridView into Overview tab, remove old ProjectOverviewView (TSK-006)
+- feat: add widget selector popover and cell assignment placeholder (TSK-005)
+- feat: add drag handles for resizing row heights and column widths in edit mode (TSK-004)
+- feat: add edit mode with row/column management and arrow-based reordering (TSK-003)
+- feat: add basic grid rendering with proportional columns and cell views (TSK-002)
+- feat: add grid data models, Supabase table, and persistence layer for customizable project dashboard (TSK-001)
+- fix(TSK-024): dismiss onboarding sheet on Complete Setup by setting item binding to nil
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-191.dmg" length="55442347" type="application/octet-stream" sparkle:edSignature="F1l3Wj+uXM1Q6m1uH7Rg8jrIwxTnw6/M3zstUBUJJqALaHER1CWKwJ+QU8quJiLgZkqNeptpjwRNURGTQhIsAA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 23 Mar 2026 04:40:40 +0000</pubDate>
       <sparkle:version>190</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
