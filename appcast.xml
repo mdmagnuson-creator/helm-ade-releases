@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 23 Mar 2026 22:24:13 +0000</pubDate>
+      <sparkle:version>205</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: restore close button and confirmation flows to session tabs
+- fix: make task story_id nullable, remove auto-create Backlog story behavior
+- feat: wire ProjectOverviewViewModel and HomeDashboardViewModel to Supabase (TSK-008)
+- feat: wire saved views and bulk actions to Supabase via TaskStore (TSK-007)
+- feat: wire TaskDetailViewModel.loadActivity() to Supabase, remove mock data (TSK-006)
+- feat: wire TaskDetailViewModel mutations to Supabase via TaskStore (TSK-005)
+- feat: wire TaskListViewModel to TaskStore for real Supabase task fetching (TSK-004)
+- feat: create TaskStore with CRUD operations against Supabase (TSK-003)
+- fix: match task detail panel background to dashboard widget surface color
+- fix: darken task detail backdrop and fix slide-in animation
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-205.dmg" length="56351476" type="application/octet-stream" sparkle:edSignature="L68U4phNn0fr0PIsSpYpApyXwSouhcLK6NZHtf0ahD4zh9+bs5kqs+rhMe5PRCQDxu1HuzsYk6Sbr8A9qX0eBQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 23 Mar 2026 22:06:21 +0000</pubDate>
       <sparkle:version>204</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
