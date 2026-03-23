@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 23 Mar 2026 12:49:34 +0000</pubDate>
+      <sparkle:version>194</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- docs(prd): update prd-assistant-first to 15 stories with floating prompt bar model
+- fix: create IconButton component, fix dashboard grid button tap targets with zIndex and contentShape inside label
+- fix: move .frame() from Image to Button on dashboard grid icon buttons
+- fix: expand icon button tap targets across entire app (~91 buttons in 30 files)
+- fix: single-column dashboard row not filling full width
+- fix: single-column row width, title shows project name, larger button targets
+- docs(prd): create prd-unified-commands, rewrite prd-assistant-first
+- docs: add CLI tools and infrastructure-before-code conventions
+- fix: column resize compounding delta, edit mode layout shift, and persistence RLS auth
+- docs(prd): create draft assistant-first
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-194.dmg" length="55509175" type="application/octet-stream" sparkle:edSignature="ZsP86CicRZgbWHACLpiW1AJ5tYoTlN+EWPnsUtpkm8gtSu4o/y2rPxDDcfnJKa/bX0sVuqexiBDM40QDTXC3BA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 23 Mar 2026 11:55:39 +0000</pubDate>
       <sparkle:version>193</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
