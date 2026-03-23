@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 23 Mar 2026 11:55:39 +0000</pubDate>
+      <sparkle:version>193</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: expand icon button tap targets across entire app (~91 buttons in 30 files)
+- fix: single-column dashboard row not filling full width
+- fix: single-column row width, title shows project name, larger button targets
+- docs(prd): create prd-unified-commands, rewrite prd-assistant-first
+- docs: add CLI tools and infrastructure-before-code conventions
+- fix: column resize compounding delta, edit mode layout shift, and persistence RLS auth
+- docs(prd): create draft assistant-first
+- chore: finalize dashboard-grid session — all 6 stories complete
+- feat: wire ProjectGridView into Overview tab, remove old ProjectOverviewView (TSK-006)
+- feat: add widget selector popover and cell assignment placeholder (TSK-005)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-193.dmg" length="55470394" type="application/octet-stream" sparkle:edSignature="HC0auWIbsmEQK2Qr+BHcM0XHy6wledBvCpsxJCpt2rLtbxpDgJJ+tlDgSWbv0Z0iwgqo7TlmvZco6JsijXiOAA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 23 Mar 2026 11:30:36 +0000</pubDate>
       <sparkle:version>192</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
