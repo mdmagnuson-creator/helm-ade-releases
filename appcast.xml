@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 23 Mar 2026 04:40:40 +0000</pubDate>
+      <sparkle:version>190</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: wire ProjectGridView into Overview tab, remove old ProjectOverviewView (TSK-006)
+- feat: add widget selector popover and cell assignment placeholder (TSK-005)
+- feat: add drag handles for resizing row heights and column widths in edit mode (TSK-004)
+- feat: add edit mode with row/column management and arrow-based reordering (TSK-003)
+- feat: add basic grid rendering with proportional columns and cell views (TSK-002)
+- feat: add grid data models, Supabase table, and persistence layer for customizable project dashboard (TSK-001)
+- fix(TSK-024): dismiss onboarding sheet on Complete Setup by setting item binding to nil
+- fix(TSK-023): filter model picker by routing provider + Copilot fallback on unsupported model
+- feat(TSK-022): services step — add descriptions, CLI detection, fix preview build error
+- feat(TSK-021): update vectorization step copy — team-aware language, Supabase storage
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-190.dmg" length="55443238" type="application/octet-stream" sparkle:edSignature="YvW9bo0t3A+NJloj0TCtfLzqmPVyBAtfVd5C2wk1I6RESZLmL5YMhEPC9t8e+2gsuiTe6z1kyHYgzO81DkwQDA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 22 Mar 2026 15:14:26 +0000</pubDate>
       <sparkle:version>184</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
