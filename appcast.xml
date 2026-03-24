@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 15:02:42 +0000</pubDate>
+      <sparkle:version>225</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: navigate to project after skip-onboarding + clear stuck onboarding on startup (TSK-004)
+- feat: iOS org drawer — left-edge slide-in with adaptive layout (US-001)
+- fix: skip onboarding wizard for already-configured projects (TSK-001)
+- docs(prd): create draft analytics
+- docs(prd): create draft code-intelligence
+- fix: always display all workspaces for selected org regardless of sidebar_items
+- fix: workspace rail sync — resolve ambiguous backfill, fullName fallback, and local/* dedup
+- docs(prd): move ios-slack-navigation to ready
+- docs(prd): refine ios-slack-navigation — all 10 stories reviewed and approved
+- fix: workspace rail not syncing across machines — supabaseId backfill and dedup
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-225.dmg" length="56458916" type="application/octet-stream" sparkle:edSignature="0eIT4UrJ8DpwVigZMDsF8p/f/0m8o2mYD4qsyJS7fxnZOuEPhxk2U809KLAXwM/3kdQcxHwpqyjxo02q3E6hCg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 13:56:54 +0000</pubDate>
       <sparkle:version>224</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
