@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 13:02:11 +0000</pubDate>
+      <sparkle:version>223</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: always display all workspaces for selected org regardless of sidebar_items
+- fix: workspace rail sync — resolve ambiguous backfill, fullName fallback, and local/* dedup
+- docs(prd): move ios-slack-navigation to ready
+- docs(prd): refine ios-slack-navigation — all 10 stories reviewed and approved
+- fix: workspace rail not syncing across machines — supabaseId backfill and dedup
+- fix: scope TaskListViewModel.tasks by repoId to prevent task bleeding across projects (TSK-009)
+- docs(prd): create draft ios-slack-navigation
+- fix: stories not appearing — TaskStoryStatus.storyId must be optional for tasks without stories (TSK-008)
+- fix: crash in topologicalSort — add cycle detection to prevent infinite recursion (TSK-008)
+- fix: story list refresh after generation — pending refresh mechanism and single onComplete fire (TSK-008)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-223.dmg" length="56432839" type="application/octet-stream" sparkle:edSignature="LBXsKfOPeiiyRaRmGqV1w/V8u8dtG3sF9HR+ga/weB0MQMdsfWO0t+FTUIT73B68ALegNVl8RGeDrBNksH0aCA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 12:25:38 +0000</pubDate>
       <sparkle:version>222</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
