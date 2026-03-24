@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 18:29:46 -0500</pubDate>
+      <sparkle:version>239</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: stop committing DMGs to releases repo, use GitHub Releases URLs
+- fix: use GitHub API for releases repo publish instead of git clone
+- chore: remove orphaned DashboardQuickActions.swift (TSK-004)
+- feat: wire QuickActionsWidget into GridCellView routing (TSK-003)
+- fix: use perl alarm instead of timeout (not available on macOS)
+- feat: create QuickActionsWidget with configurable action set (TSK-002)
+- fix: remove releases/ from sparse checkout to avoid 4.6GB download
+- feat: add tab-switch and creation notifications for Quick Actions widget (TSK-001)
+- fix: sparse checkout releases repo to avoid downloading 4.6GB of historical DMGs
+- fix: shallow clone releases repo (4.6GB full clone was hanging on self-hosted runner)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-239/Helm-0.1.0-239.dmg" length="55782497" type="application/octet-stream" sparkle:edSignature="s8rle1lGyc0P8mF4AUCakFSMEGFuRpE2653Tm8SaNWZpzSr8GTYJw58Xu8Y4UoNRo3+eNVcHQQh8vmIOzplTAA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 20:38:03 +0000</pubDate>
       <sparkle:version>231</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
