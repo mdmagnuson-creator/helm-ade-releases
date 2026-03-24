@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 17:43:07 +0000</pubDate>
+      <sparkle:version>228</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: add iOS universal icon entry to AppIcon asset catalog
+- feat: create HelmADE-iOS target with shared sources, platform guards, and updated TestFlight CI
+- feat: tab persistence via @AppStorage and deep linking via NotificationRouter for sessions, tasks, and PRDs (US-010)
+- feat: remove HelmIOS target, scheme, and directory — single canonical iOS build via HelmADE (US-009)
+- feat: iPad adaptive layout with NavigationSplitView sidebar and detail columns (US-008)
+- feat: notes tab with grouped list, rich text editor, and auto-save (US-007)
+- feat: PRDs tab with list, detail view, stories, and creation/editing (US-006)
+- feat: sessions tab with chat view, status badges, and realtime updates (US-005)
+- feat: tasks tab with status filters, search, detail view, and creation sheet (US-004)
+- feat: iOS 4-tab layout (Tasks/Sessions/PRDs/Notes), remove Overview, Tasks default (US-003)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-228.dmg" length="56458937" type="application/octet-stream" sparkle:edSignature="ins5W6kmqE/oR9fDAqk+1dEm6w4SqdahlL1lkWrXEs4JPBKzstVUKTDcomy6kMssOl5ghWul9fQT5D5tW0hQDQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 16:24:34 +0000</pubDate>
       <sparkle:version>226</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
