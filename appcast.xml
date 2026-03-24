@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 11:28:32 +0000</pubDate>
+      <sparkle:version>221</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: workspace rail not syncing across machines — supabaseId backfill and dedup
+- fix: scope TaskListViewModel.tasks by repoId to prevent task bleeding across projects (TSK-009)
+- docs(prd): create draft ios-slack-navigation
+- fix: stories not appearing — TaskStoryStatus.storyId must be optional for tasks without stories (TSK-008)
+- fix: crash in topologicalSort — add cycle detection to prevent infinite recursion (TSK-008)
+- fix: story list refresh after generation — pending refresh mechanism and single onComplete fire (TSK-008)
+- fix: refresh story list immediately after save, not only on Done button (TSK-008)
+- feat: add Generate Stories from codebase with Helm Assistant to stories empty state (TSK-008)
+- fix: load tasks into TaskStore on widget init, merge multi-repo data
+- fix: wire TaskStore into TaskListWidget for reactive list row updates
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-221.dmg" length="56420184" type="application/octet-stream" sparkle:edSignature="VHtqiiaPzLezI8vA9SmQ93o8A9zM/Hp8plPkb594/BEm4/gAhoyNFctp/t7hvmHRye7i2zCVmIXIQlBq6f0oCw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 10:36:04 +0000</pubDate>
       <sparkle:version>219</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
