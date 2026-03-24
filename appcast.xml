@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 04:17:48 +0000</pubDate>
+      <sparkle:version>216</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: refresh story list immediately after save, not only on Done button (TSK-008)
+- feat: add Generate Stories from codebase with Helm Assistant to stories empty state (TSK-008)
+- fix: load tasks into TaskStore on widget init, merge multi-repo data
+- fix: wire TaskStore into TaskListWidget for reactive list row updates
+- feat: real-time reactivity for task updates across all views
+- refactor: restructure task detail view with dropdown controls, tabs, and inline editing
+- fix: move close button into TaskDetailView so thread panel spans full panel height
+- fix: filter replies from timeline, top-align thread panel, inline reply icon
+- style: hide placeholder on focus and increase top padding in editors
+- style: add internal padding to comment and reply text editors
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-216.dmg" length="56408566" type="application/octet-stream" sparkle:edSignature="lPoh/0jv2LmUr/kCnArx6wE6ytkkeH/S1m5sQoSmh9wTEnJ5RSaNvG2aqjKDm+fRT7XfqMvur/XWUCUJoI9SDg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 03:25:12 +0000</pubDate>
       <sparkle:version>215</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
