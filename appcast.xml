@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 03:01:15 +0000</pubDate>
+      <sparkle:version>214</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: load tasks into TaskStore on widget init, merge multi-repo data
+- fix: wire TaskStore into TaskListWidget for reactive list row updates
+- feat: real-time reactivity for task updates across all views
+- refactor: restructure task detail view with dropdown controls, tabs, and inline editing
+- fix: move close button into TaskDetailView so thread panel spans full panel height
+- fix: filter replies from timeline, top-align thread panel, inline reply icon
+- style: hide placeholder on focus and increase top padding in editors
+- style: add internal padding to comment and reply text editors
+- refactor: remove Write/Preview toggle from comment composer and mention picker
+- fix: restore close button and confirmation flows to session tabs
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-214.dmg" length="56339011" type="application/octet-stream" sparkle:edSignature="0P7wEF992X0KG6g0GXOLZfvaNv18TtV3yqN3HJMQ/yOwwOKYgySh/SWtq/s0Rv6vhDYh7IBUTNh3/qJW4GVsDw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 02:17:10 +0000</pubDate>
       <sparkle:version>211</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
