@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 00:53:18 +0000</pubDate>
+      <sparkle:version>209</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: filter replies from timeline, top-align thread panel, inline reply icon
+- style: hide placeholder on focus and increase top padding in editors
+- style: add internal padding to comment and reply text editors
+- refactor: remove Write/Preview toggle from comment composer and mention picker
+- fix: restore close button and confirmation flows to session tabs
+- fix: make task story_id nullable, remove auto-create Backlog story behavior
+- feat: wire ProjectOverviewViewModel and HomeDashboardViewModel to Supabase (TSK-008)
+- feat: wire saved views and bulk actions to Supabase via TaskStore (TSK-007)
+- feat: wire TaskDetailViewModel.loadActivity() to Supabase, remove mock data (TSK-006)
+- feat: wire TaskDetailViewModel mutations to Supabase via TaskStore (TSK-005)
+      ]]></description>
+      <enclosure url="https://mdmagnuson-creator.github.io/helm-ade-releases/releases/Helm-0.1.0-209.dmg" length="56303572" type="application/octet-stream" sparkle:edSignature="Zsk+37o165IVmtDCJ4BEKGACKQsTtGK+gKjEM1HEpyFtUerUhQcMlrFTM1Y5dqDxEubbKEUo4m1Cyk0BoZ7TDA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 23 Mar 2026 22:24:13 +0000</pubDate>
       <sparkle:version>205</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
