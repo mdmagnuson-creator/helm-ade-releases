@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Wed, 25 Mar 2026 09:42:34 -0500</pubDate>
+      <sparkle:version>253</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix(ios): update iOSTaskDetailView to use new 14-case TaskStatus enum
+- feat: reusable status menu with category headers, task detail pills, widget display mode, sidebar brightness, and rename crash fix
+- docs(prd): add US-000 codebase audit story with hard stop gate to prd-unified-commands
+- refactor: replace 16-case TaskStatus with 14-status environment-based workflow
+- fix: thread org_id through EnrichedRepoClone pipeline and fix settings cog navigation
+- fix(macos): stable workspace row height on hover and deep-link to workspace settings
+- fix(ios): load workspace/sidebar data on startup and show remote repos
+- fix: resolve macOS freeze and iOS project lookup
+- fix(ios): resolve pre-existing iOS build errors
+- fix(ios): populate localRepos on launch and fix back button tap interception
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-253/Helm-0.1.0-253.dmg" length="55867106" type="application/octet-stream" sparkle:edSignature="GNBjiEw6CuFNktg8EU+TaBWJl4f+zrQrQfryULnxWHNWC/4RcSz/UgLnV+td9SoBSrTYOYk7LBYs8UWiwusXCA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Wed, 25 Mar 2026 09:35:52 -0500</pubDate>
       <sparkle:version>252</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
