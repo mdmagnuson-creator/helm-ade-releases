@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Wed, 25 Mar 2026 05:43:41 -0500</pubDate>
+      <sparkle:version>247</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: simplify build signing — remove unnecessary codesign from copy-opencode-binary.sh
+- fix: skip app bundle re-signing for Debug builds to prevent Team ID crash
+- fix: use ad-hoc signing for Debug builds to avoid keychain prompt
+- fix: make + project and + workspace rail buttons fully clickable
+- docs: add Data Storage Policy to CONVENTIONS.md
+- feat: migrate split-state.json to Supabase device_split_state table (Phase 3B)
+- feat: migrate tabs.json to Supabase device_tab_state table (Phase 3A)
+- feat: migrate UnreadTracker from UserDefaults to Supabase session_read_state (Phase 2D)
+- refactor: consolidate duplicate NotificationManagers, eliminate 4 UserDefaults keys (Phase 2C)
+- feat: migrate extraction settings UserDefaults to Supabase (Phase 2B)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-247/Helm-0.1.0-247.dmg" length="55821571" type="application/octet-stream" sparkle:edSignature="S1+/Skux8z1SiRh6RFf77pqITGF9Ek90QWH2OfEx07aUCepJmENIuXTU2izAgx9ucN1sf5uBc9a3VmuAnRQcDA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Wed, 25 Mar 2026 05:23:15 -0500</pubDate>
       <sparkle:version>246</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
