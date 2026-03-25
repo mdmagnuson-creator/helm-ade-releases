@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 22:10:45 -0500</pubDate>
+      <sparkle:version>242</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- docs(prd): add impact-weighted memory to living-memory PRD and white paper
+- feat: add repo rename detection and workspace association verification (TSK-009)
+- fix: relink orphaned workspace_projects after repo deduplication (TSK-008)
+- docs(prd): add assistant toolkit health review (US-016) and scheduling infra skeleton
+- docs: strengthen CLI usage conventions — agents must use CLIs, not defer to user
+- fix: use github_repo_id for Supabase upsert conflict key to handle repo renames
+- fix: sync repo names from GitHub on refresh to reflect renames
+- fix: prevent action button text truncation by using FlowLayout with fixedSize (TSK-007)
+- feat: replace Menu-based settings with stay-open popover panels, add WidgetSettingsButton component (TSK-007)
+- feat: standardize cog menu for all widget types, remove X button overlay (TSK-006)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-242/Helm-0.1.0-242.dmg" length="55856273" type="application/octet-stream" sparkle:edSignature="naI1WfkMwxbn5O5zYlpf4l6W4K1Ai7HdzS7HRbax9/A2uGLrXcp7RzpMFyvORLf2NMPnYyALg3sPgd+6bDK4AA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 21:37:07 -0500</pubDate>
       <sparkle:version>241</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
