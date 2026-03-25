@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Wed, 25 Mar 2026 00:40:56 -0500</pubDate>
+      <sparkle:version>243</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: migrate split-state.json to Supabase device_split_state table (Phase 3B)
+- feat: migrate tabs.json to Supabase device_tab_state table (Phase 3A)
+- feat: migrate UnreadTracker from UserDefaults to Supabase session_read_state (Phase 2D)
+- refactor: consolidate duplicate NotificationManagers, eliminate 4 UserDefaults keys (Phase 2C)
+- feat: migrate extraction settings UserDefaults to Supabase (Phase 2B)
+- feat: add extraction settings columns + session_read_state table (Phase 2A)
+- feat: add repos.json migration + realtime sync, delete RepoSyncManager and manifest code (Phase 1D+1E)
+- refactor: migrate RepoStore and RepoManager to RepoCloneService (Phase 1C)
+- feat: add RepoCloneService + extend RepoClone model with 6 new fields (Phase 1B)
+- feat: extend repo_clones table for repos.json elimination (Phase 1A)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-243/Helm-0.1.0-243.dmg" length="55839331" type="application/octet-stream" sparkle:edSignature="Kfl+nvk89k3OMzTAYbrXWi0yapQFJcE5+KGuuaCkCQuyryhAXc0OuIhEIGGaz88gJkwedL78jP4rRnvNknYlAg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 22:10:45 -0500</pubDate>
       <sparkle:version>242</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
