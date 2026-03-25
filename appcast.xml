@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 21:37:07 -0500</pubDate>
+      <sparkle:version>241</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- docs(prd): add assistant toolkit health review (US-016) and scheduling infra skeleton
+- docs: strengthen CLI usage conventions — agents must use CLIs, not defer to user
+- fix: use github_repo_id for Supabase upsert conflict key to handle repo renames
+- fix: sync repo names from GitHub on refresh to reflect renames
+- fix: prevent action button text truncation by using FlowLayout with fixedSize (TSK-007)
+- feat: replace Menu-based settings with stay-open popover panels, add WidgetSettingsButton component (TSK-007)
+- feat: standardize cog menu for all widget types, remove X button overlay (TSK-006)
+- feat: replace inline toggle list with cog menu in QuickActionsWidget (TSK-005)
+- fix: re-sign app bundle after copy-opencode-binary build phase
+- fix: stop committing DMGs to releases repo, use GitHub Releases URLs
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-241/Helm-0.1.0-241.dmg" length="55833042" type="application/octet-stream" sparkle:edSignature="OiR4N8zRwPxyHUE1jKT3vmQFuZ3KiP98AQohCY4rwEExg56H0K+TMWlMmI8FL13wO4hlN5bHeWnRoTAyMGT7CA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 21:05:20 -0500</pubDate>
       <sparkle:version>240</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
