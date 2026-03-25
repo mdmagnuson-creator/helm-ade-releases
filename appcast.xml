@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 24 Mar 2026 21:05:20 -0500</pubDate>
+      <sparkle:version>240</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: prevent action button text truncation by using FlowLayout with fixedSize (TSK-007)
+- feat: replace Menu-based settings with stay-open popover panels, add WidgetSettingsButton component (TSK-007)
+- feat: standardize cog menu for all widget types, remove X button overlay (TSK-006)
+- feat: replace inline toggle list with cog menu in QuickActionsWidget (TSK-005)
+- fix: re-sign app bundle after copy-opencode-binary build phase
+- fix: stop committing DMGs to releases repo, use GitHub Releases URLs
+- fix: use GitHub API for releases repo publish instead of git clone
+- chore: remove orphaned DashboardQuickActions.swift (TSK-004)
+- feat: wire QuickActionsWidget into GridCellView routing (TSK-003)
+- fix: use perl alarm instead of timeout (not available on macOS)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-240/Helm-0.1.0-240.dmg" length="55830348" type="application/octet-stream" sparkle:edSignature="kcPgV9V5jzg/9MyZwIfDoEEV8QiwYBY/UBGX5bNmkaLHbxlO0jSl/aORyl8S2VvhY1vHYTulAgiWdJIy+QTQBg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 24 Mar 2026 18:29:46 -0500</pubDate>
       <sparkle:version>239</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
