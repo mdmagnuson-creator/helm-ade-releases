@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Wed, 25 Mar 2026 07:15:08 -0500</pubDate>
+      <sparkle:version>250</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix(ios): load workspace/sidebar data on startup and show remote repos
+- fix: resolve macOS freeze and iOS project lookup
+- fix(ios): resolve pre-existing iOS build errors
+- fix(ios): populate localRepos on launch and fix back button tap interception
+- fix: kill orphaned opencode processes on launch, quit, and periodically
+- fix: simplify build signing — remove unnecessary codesign from copy-opencode-binary.sh
+- fix: skip app bundle re-signing for Debug builds to prevent Team ID crash
+- fix: use ad-hoc signing for Debug builds to avoid keychain prompt
+- fix: make + project and + workspace rail buttons fully clickable
+- docs: add Data Storage Policy to CONVENTIONS.md
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-250/Helm-0.1.0-250.dmg" length="55857758" type="application/octet-stream" sparkle:edSignature="eAhx3v6yJ0D+60Ck75mpg6iRKCHaQv9id1CmVY+aYffIqGdAftoC6jCYiUjMHgmvIzuscxf7hnBs+dN4ZI3OCA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Wed, 25 Mar 2026 06:45:42 -0500</pubDate>
       <sparkle:version>249</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
