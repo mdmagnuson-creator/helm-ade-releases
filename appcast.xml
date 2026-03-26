@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Thu, 26 Mar 2026 09:11:12 -0500</pubDate>
+      <sparkle:version>254</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- chore: mark prd-command-logging as completed
+- feat: add commandDidUndo publisher and undo operation logging (US-004)
+- feat: add commandDidFail publisher and validation failure logging (US-003)
+- feat: add CommandLogSubscriber with willExecute/didExecute logging (US-002)
+- feat: add .command log category to DebugLogger (US-001)
+- fix: use xcodebuild -showBuildSettings to resolve debug app path
+- fix: flush pending title/description saves on task detail dismiss
+- fix: store TaskDetailViewModel in @State to persist across re-renders
+- chore: remove SaveTraceLog diagnostic logging (save bug fixed)
+- fix: task saves failing — activity trigger referenced wrong column name (description vs description_markdown)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-254/Helm-0.1.0-254.dmg" length="58674210" type="application/octet-stream" sparkle:edSignature="1gCTjeBA1UA2CI43dMUt3lOgj0yWzGm1IIkhaBZIQfL670nmXp1/O0DD7pWndAFbKCVmawoHmOa6jAu5W7I+DA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Wed, 25 Mar 2026 09:42:34 -0500</pubDate>
       <sparkle:version>253</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
