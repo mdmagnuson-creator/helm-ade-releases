@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Thu, 26 Mar 2026 11:27:05 -0500</pubDate>
+      <sparkle:version>255</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- chore: mark prd-command-migration as completed — zero lint violations, all 10 stories done (US-010)
+- feat: migrate Labels, Notifications, Reminders, Dashboard to CommandDispatcher; populate allowlist with 22 justified exceptions (US-009)
+- feat: migrate StoryDetailViewModel and StoryListViewModel to CommandDispatcher (US-008)
+- feat: migrate CommentsViewModel and ThreadViewModel to CommandDispatcher, consolidate activity logging into commands (US-007)
+- feat: migrate TaskListWidgetVM, TaskCreationVM, TaskDetailView, TaskListVM to CommandDispatcher (US-006)
+- feat: migrate TaskDetailViewModel to dispatch all mutations through CommandDispatcher (US-005)
+- feat: create 6 new commands — story.create, reminder.delete, dashboard and test commands with new registrars (US-004)
+- feat: create 5 new task commands — assign, assignToStory, submitReply, checkoutForScoping, releaseScopingCheckout (US-003)
+- feat: add TL;DR for Agents section to CONVENTIONS.md (US-002)
+- feat: add command bypass lint script with Xcode build phase and CI support (US-001)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-255/Helm-0.1.0-255.dmg" length="58728973" type="application/octet-stream" sparkle:edSignature="EVNQuREHyhuG3ufePPWjdSCIC5/AvLNug/NuCIYf7y0LanNw1iBM9uaFrXCJJDGX0mcdnA/BuUnxRDM+RoBPBw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Thu, 26 Mar 2026 09:11:12 -0500</pubDate>
       <sparkle:version>254</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
