@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Thu, 26 Mar 2026 19:19:50 -0500</pubDate>
+      <sparkle:version>256</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat(US-009): Migrate PRD Views to dispatch through CommandDispatcher
+- feat: migrate NotesPanelView, iOSNoteEditorView, iOSTabViews to dispatch note commands (US-008)
+- feat: migrate TaskLinksSection to dispatch taskLink commands (US-007)
+- feat: migrate TaskAttachmentsSection to dispatch attachment commands (US-006)
+- feat: add sessionTask, envConfig, workspace commands — 9 commands across 3 domains (US-005)
+- feat: add prd.abandon, prd.reactivate, prd.markReady, prd.updateTitle commands (US-004)
+- feat: add note.delete, note.togglePin, note.saveContent commands (US-003)
+- feat: add taskLink.create, taskLink.delete, taskLink.setParent, taskLink.removeParent commands (US-002)
+- feat: add attachment.upload and attachment.delete commands (US-001)
+- fix: use Codable structs for Supabase INSERT to avoid SDK 201 response handling bug
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-256/Helm-0.1.0-256.dmg" length="58880007" type="application/octet-stream" sparkle:edSignature="Q2/e7e3a2F/XG7Qxr3AZacjL63D3OpMVtqL1idgAvxNf4QUAQn8osSR+QgJI8zBkh0NpTVH6IA1PdLA098sDCw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Thu, 26 Mar 2026 11:27:05 -0500</pubDate>
       <sparkle:version>255</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
