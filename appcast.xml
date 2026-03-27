@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 27 Mar 2026 05:23:06 -0500</pubDate>
+      <sparkle:version>257</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- chore: mark prd-session-launch-commands completed (14/14 stories)
+- feat: add tabManager.openTab lint rule and document session launch pattern (US-013, US-014)
+- feat: add dashboard.openSession, session.open, session.openExisting commands (US-010, US-011, US-012)
+- feat: add prd.createAndOpenPlannerSession compound command (US-009)
+- feat: add prd.implementWithBuilder, prd.refineWithPlanner, prd.generateTasksWithPlanner commands (US-006, US-007, US-008)
+- feat: add prd.openPlannerSession compound command (US-005)
+- feat: add task.addToRunningSession compound command (US-004)
+- feat: add task.launchPlanningSession compound command (US-003)
+- feat: add task.launchTestingSession compound command (US-002)
+- feat: add task.launchBuildingSession compound command (US-001)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-257/Helm-0.1.0-257.dmg" length="59015466" type="application/octet-stream" sparkle:edSignature="36mmbTFbmD/7R1gM1lQjj1YNh2QcS+mOd3/GCUjY0w6JnBHIcSplYiDkiL4yAuemCvaqeyGzt7RJ5hpiiGTRBQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Thu, 26 Mar 2026 19:19:50 -0500</pubDate>
       <sparkle:version>256</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
