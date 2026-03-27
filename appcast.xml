@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 27 Mar 2026 09:37:31 -0500</pubDate>
+      <sparkle:version>258</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- docs(prd): move prd-notification-cleanup to ready
+- fix: render SVG icons in onboarding preview + show filename next to Remove button
+- fix: show uploaded icon in onboarding Step 1 preview (AsyncImage from URL + Remove clears iconUrl)
+- feat: persist onboarding progress incrementally — save/restore all fields on each step
+- feat: resolution-aware zoom persistence — JSONB map per display, auto-switch on monitor change
+- feat: wire up project icon picker in onboarding step 1 (NSOpenPanel + deferred upload)
+- feat: persist zoom level per user per device in Supabase (user_device_preferences table)
+- chore: mark prd-command-migration-cleanup completed (7/7 stories)
+- docs: document prd.createFromDescription vs prd.create command ID distinction (US-006)
+- refactor: inline createPRDAndOpenSession in DashboardDataProvider and ProjectTabContainerView (US-005)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-258/Helm-0.1.0-258.dmg" length="59150538" type="application/octet-stream" sparkle:edSignature="7tMgvkQwi7/0twjJfZX6SI7V4C0IYFfu1HqaynYywLyObxkBEVZ3jCxMQUj3CRhQAS7/mN/HDmeaH+g/zMP4BA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 27 Mar 2026 05:23:06 -0500</pubDate>
       <sparkle:version>257</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
