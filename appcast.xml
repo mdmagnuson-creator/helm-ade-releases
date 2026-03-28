@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 28 Mar 2026 13:52:40 -0500</pubDate>
+      <sparkle:version>260</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat(US-003): Add Ollama detection banner and one-tap setup
+- feat: add no-API-key provider path for Ollama (US-002)
+- feat: add ollama AIProviderType with defaults (US-001)
+- chore: revert prd-terminology-rename — reset to ready status
+- feat: make project settings fill content area, remove header, add JSON syntax highlighting
+- feat: detect agent files during onboarding + pre-populate from project.json (US-009)
+- feat: clean up SettingsAppCommands — rename apps→buildTargets (US-008)
+- feat: implement Agent Files tab — markdown viewer and editor (US-007)
+- chore: update PRD status for US-006 completion
+- feat: implement project.json tab viewer and editor (US-006)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-260/Helm-0.1.0-260.dmg" length="58602518" type="application/octet-stream" sparkle:edSignature="6w9XuS6LQWELtFOpl/bwd4Pq5gZPo8QElg/MbJa9Tnw8lmVUuHiVDd56ItDgy0xQcJn3wwYB9D1FCGhLEn78CA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 28 Mar 2026 10:46:53 -0500</pubDate>
       <sparkle:version>259</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
