@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Thu, 02 Apr 2026 17:36:04 -0500</pubDate>
+      <sparkle:version>268</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: skip Finder AppleScript in CI to prevent create-dmg timeout (-1712)
+- fix: ActiveSessionsWidget subscribes to sessions on appear
+- feat: stream sub-agent work live in task delegation cards (TSK-001, TSK-002, TSK-003)
+- fix: add dismantleNSView to AutoGrowingTextEditor to prevent crash on session panel back button (TSK-001)
+- perf: cap TodoStore at 250 items — trim completed/removed todos, O(1) dictionary lookups for SSE merge (TSK-005)
+- perf: deduplicate realtime subscriptions — single session channel via SessionSyncManager, guard against re-subscribe (TSK-004)
+- perf: parallelize quit shutdown — concurrent tab cleanup, fire-and-forget network calls, 1s process timeout (TSK-003)
+- perf: batch SSE event dispatch — coalesce events every 50ms to reduce main-thread Task overhead ~80% (TSK-002)
+- perf: add background throttling — pause timers, buffer SSE, reduce heartbeats when app loses focus (TSK-001)
+- docs: add AI Toolkit relationship section to CONVENTIONS.md
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-268/Helm-0.1.0-268.dmg" length="57989983" type="application/octet-stream" sparkle:edSignature="yuVilCM9sBeiQeNi/rfMQ8jSQPhQi5S9BLd273vkVhFYZQLJpXQ/Zgu5DbNMddnMPY4Lbgd3c9wrD5/9tpj5CA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 28 Mar 2026 14:41:55 -0500</pubDate>
       <sparkle:version>262</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
