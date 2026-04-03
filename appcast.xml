@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 03 Apr 2026 10:24:33 -0500</pubDate>
+      <sparkle:version>269</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: replace background pause with tiered streaming throttle (TSK-003)
+- feat: add VisibleSessionsManager for per-session visibility tracking (TSK-002)
+- perf: reduce streaming flush interval to 100ms and SSE batch to 16ms (TSK-001)
+- fix: read sub-agent progress from state.metadata instead of custom SSE routing (TSK-001, TSK-002, TSK-003)
+- feat: add copy-pasteable AI resolution prompt to merge conflict error view (TSK-003)
+- fix: preserve GitMergeError type and add actionable conflict resolution UX (TSK-001, TSK-002)
+- fix: wire Complete button to CompleteAndMergeSheet instead of CompleteSessionView (TSK-001)
+- fix: prevent stale port reuse in session port allocation
+- fix: skip Finder AppleScript in CI to prevent create-dmg timeout (-1712)
+- fix: ActiveSessionsWidget subscribes to sessions on appear
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-269/Helm-0.1.0-269.dmg" length="57986884" type="application/octet-stream" sparkle:edSignature="YujJZr47OQeLtPW9rFliKlCUm3qpKAXKiKkS3oXFnp1CQ0L8xrBTmCP9++P0dyl7lRp1FiHa4kpk1nSppLNuAw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Thu, 02 Apr 2026 17:36:04 -0500</pubDate>
       <sparkle:version>268</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
