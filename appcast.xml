@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Fri, 03 Apr 2026 20:08:23 -0500</pubDate>
+      <sparkle:version>270</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- chore: update session logs
+- docs: update Keychain Policy in CONVENTIONS.md for file-based auth storage
+- refactor: remove KeychainManager and legacy keychain usage (TSK-004)
+- fix: rewrite HelmAuthLocalStorage to file-based storage in Application Support (TSK-003)
+- fix: prevent false 'Link GitHub Account' screen by handling session timing and query errors (TSK-002)
+- fix: switch HelmAuthLocalStorage to Data Protection Keychain to stop repeated password prompts (TSK-001)
+- fix: reduce CPU spin from per-byte MainActor hops in SSE loop
+- feat: replace background pause with tiered streaming throttle (TSK-003)
+- feat: add VisibleSessionsManager for per-session visibility tracking (TSK-002)
+- perf: reduce streaming flush interval to 100ms and SSE batch to 16ms (TSK-001)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-270/Helm-0.1.0-270.dmg" length="57989132" type="application/octet-stream" sparkle:edSignature="0sdXXPj9nL7h3jbBoENiCvOU3o94qwB2rWOwaciowOIONoguZlUN0p6f4tiw8VrD3ruAFojnBPsyQE6oFiU4DQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 03 Apr 2026 10:24:33 -0500</pubDate>
       <sparkle:version>269</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
