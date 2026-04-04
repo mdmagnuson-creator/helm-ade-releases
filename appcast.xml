@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 04 Apr 2026 13:17:11 -0500</pubDate>
+      <sparkle:version>271</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: session UI staleness, vision error recovery, and post-error input delay
+- feat: add post-worktree-create hooks for dependency setup
+- feat: add inference stall detection — warn user after 90s of no LLM response
+- feat: show sub-agent messages inline and display model in delegation card (TSK-001, TSK-002)
+- Revert "fix: resolve streaming UI freeze and tool call data loss during heavy agent sessions (TSK-001–004)"
+- fix: resolve streaming UI freeze and tool call data loss during heavy agent sessions (TSK-001–004)
+- fix: auto-refresh JWT in helm-bridge plugin when token expires (TSK-001, TSK-002)
+- fix: auto-complete orphaned steps across ALL session messages (TSK-001)
+- fix: auto-complete orphaned Working... step indicators (TSK-001)
+- chore: finalize session — all 12 SSE rendering parity tasks complete
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-271/Helm-0.1.0-271.dmg" length="58460859" type="application/octet-stream" sparkle:edSignature="THiy+ifQ4pwvMyyNaaPj945uQHf3eDrgT4Z5LnkCoHQ+ag4EO42PTgjZye5dcJY2FCDPVrtq4psb8tPK9QEPAA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Fri, 03 Apr 2026 20:08:23 -0500</pubDate>
       <sparkle:version>270</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
