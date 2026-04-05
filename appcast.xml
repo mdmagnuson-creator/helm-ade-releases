@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sat, 04 Apr 2026 22:53:15 -0500</pubDate>
+      <sparkle:version>272</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: wire Plan button to send /plan-spec command to Planner session
+- fix: add 5s disconnect timeout and duration logging to SSE reconnect (TSK-005)
+- feat: auto-retry inference stalls before showing manual retry UI (TSK-004)
+- feat: fix sub-agent message reactivity — observe MessageStore for live updates (TSK-003)
+- feat: add pipeline tracing across SSE → MessageStore → ChatView for UI freeze diagnosis (TSK-002)
+- feat: show sub-agent message toggle during running state, not just after completion (TSK-001)
+- fix: session UI staleness, vision error recovery, and post-error input delay
+- feat: add post-worktree-create hooks for dependency setup
+- feat: add inference stall detection — warn user after 90s of no LLM response
+- feat: show sub-agent messages inline and display model in delegation card (TSK-001, TSK-002)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-272/Helm-0.1.0-272.dmg" length="58485597" type="application/octet-stream" sparkle:edSignature="0FdYNP+UNndtuvZ7qC7cUD2KOP2d6skIPmMoSr2bOxEByg64Fg5FlUgqem706WyczJ8sO3TuQKq4byNxnG4VBA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 04 Apr 2026 13:17:11 -0500</pubDate>
       <sparkle:version>271</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
