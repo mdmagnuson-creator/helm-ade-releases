@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 05 Apr 2026 06:50:02 -0500</pubDate>
+      <sparkle:version>273</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: match search field height and styling to New Task button in Tasks widget
+- fix: align Tasks widget header with standard dashboard widget pattern (TSK-001)
+- feat: add Insert Default Widgets and Copy Another Dashboard buttons to empty dashboard (TSK-001, TSK-002)
+- feat: wire Plan button to send /plan-spec command to Planner session
+- fix: add 5s disconnect timeout and duration logging to SSE reconnect (TSK-005)
+- feat: auto-retry inference stalls before showing manual retry UI (TSK-004)
+- feat: fix sub-agent message reactivity — observe MessageStore for live updates (TSK-003)
+- feat: add pipeline tracing across SSE → MessageStore → ChatView for UI freeze diagnosis (TSK-002)
+- feat: show sub-agent message toggle during running state, not just after completion (TSK-001)
+- fix: session UI staleness, vision error recovery, and post-error input delay
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-273/Helm-0.1.0-273.dmg" length="58531466" type="application/octet-stream" sparkle:edSignature="GM3tm0FnpTGz/isP6T3HHryedFxjDoj4W04aNq1F/y755lqvSJvUUEMfWD/5maHKba38YPMZnqtPH2/+7tEsBA==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sat, 04 Apr 2026 22:53:15 -0500</pubDate>
       <sparkle:version>272</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
