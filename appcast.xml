@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 05 Apr 2026 07:25:24 -0500</pubDate>
+      <sparkle:version>274</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: add cross-platform image support to FileAttachmentView for iOS build
+- feat: merge Stories into Overview tab, make spec content read-only (TSK-002)
+- feat: migrate prd_stories to content_markdown column (TSK-001)
+- fix: match search field height and styling to New Task button in Tasks widget
+- fix: align Tasks widget header with standard dashboard widget pattern (TSK-001)
+- feat: add Insert Default Widgets and Copy Another Dashboard buttons to empty dashboard (TSK-001, TSK-002)
+- feat: wire Plan button to send /plan-spec command to Planner session
+- fix: add 5s disconnect timeout and duration logging to SSE reconnect (TSK-005)
+- feat: auto-retry inference stalls before showing manual retry UI (TSK-004)
+- feat: fix sub-agent message reactivity — observe MessageStore for live updates (TSK-003)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-274/Helm-0.1.0-274.dmg" length="58511502" type="application/octet-stream" sparkle:edSignature="wouSslidESCqoIh/zcuaTItPDONCvnBhNlMZcIsRltm9eFDVuwRrsHWe6KNQjMkA36v1MSD0+CYeusGPbmxrCQ==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 05 Apr 2026 06:50:02 -0500</pubDate>
       <sparkle:version>273</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
