@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Sun, 05 Apr 2026 20:57:12 -0500</pubDate>
+      <sparkle:version>275</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: integration verification — 59 unit tests for MCP server, command bridge, env audit (US-009)
+- feat: update helm-ade-toolkit to use MCP — delete helm-bridge.js, migrate all tools (US-008)
+- feat: write MCP server entry to opencode.json, remove Supabase env vars (US-007)
+- feat: session mutation commands + notification/project settings commands (US-005, US-006)
+- feat: lifecycle MCP tools — initSession, completeSession, heartbeat (US-004)
+- feat: MCP query tools — 10 Supabase read tools for tasks, PRDs, sessions, settings (US-003)
+- feat: register MCP query tools for core data reads (US-003)
+- feat: auto-register CommandRegistry commands as MCP tools via MCPCommandBridge (US-002)
+- feat: MCP server core infrastructure — HelmMCPServer, Unix socket transport, bridge binary (US-001)
+- feat: replace single-expand with multi-expand for tool call cards, remove all auto-expand/collapse (TSK-001)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-275/Helm-0.1.0-275.dmg" length="58806160" type="application/octet-stream" sparkle:edSignature="naHWft20KaXvc6sYGMj4sWF4/z5PVQ1H5kA322mFRkQSCNV9yEjFJGAXGucq4cbTNOja0uome18yIqcmOA2EAg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 05 Apr 2026 07:25:24 -0500</pubDate>
       <sparkle:version>274</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
