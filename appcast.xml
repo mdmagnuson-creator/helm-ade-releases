@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 06 Apr 2026 07:23:04 -0500</pubDate>
+      <sparkle:version>276</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: show GitHub Copilot provider in all orgs including non-GitHub-connected (TSK-001)
+- fix: prevent NSNull crash in querySessionStateTool when agent_state is NULL
+- fix: MCP initSession and query_session_state return correct results
+- fix: initSession query uses UUID lookup + returns launch context (source_type/source_id/source_title)
+- feat: undo integration via MCP tools (US-008)
+- feat: context-aware suggestion chips (US-007)
+- feat: chat popover with session auto-minimize (US-006)
+- feat: floating chat bar with collapsed pill (US-005)
+- feat: context rotation and rolling summary (US-005-A)
+- feat: conversation persistence to Supabase (US-004)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-276/Helm-0.1.0-276.dmg" length="59110021" type="application/octet-stream" sparkle:edSignature="KXmgR4xuFdw2rxVNzFzf+bHt5GTCkp0afGaR6+giQtJo0GVs3AF2DYdvF8uW3kp0ChetPPOBHndPhA9oWv+QAw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Sun, 05 Apr 2026 20:57:12 -0500</pubDate>
       <sparkle:version>275</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
