@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Mon, 06 Apr 2026 20:33:31 -0500</pubDate>
+      <sparkle:version>278</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: assistant session starts on login, not project selection (C4 corrected)
+- fix: post-PRD quality audit — 4 critical + 5 moderate fixes
+- feat: add prd.updatePlannerState MCP command + plannerReviewedAt on story update
+- feat: planner state cross-session recovery, compaction card, streaming markdown improvements
+- fix: improve streaming markdown rendering with line-completion buffering
+- fix: prevent stuck streaming state when idle SSE event is missed
+- fix: read todos from Supabase Realtime instead of in-memory SSE state
+- feat: complete PRD story CRUD surface + rename prd.abandon to prd.archive
+- fix: bump updatedAt on tool call mutations to restore card content rendering (TSK-001)
+- perf: reduce view count per message + re-enable LazyVStack (TSK-012/013/014)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-278/Helm-0.1.0-278.dmg" length="59365963" type="application/octet-stream" sparkle:edSignature="vCt7M4kD1g7MqQyqjKM5c+0BSE6R+fnhg8wyjrEmfcqdpMXtcj65quzjA6zkPbagnNSrU3TnRgH5X1/XQ5NhBg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 06 Apr 2026 09:49:40 -0500</pubDate>
       <sparkle:version>277</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
