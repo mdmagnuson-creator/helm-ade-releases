@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 07 Apr 2026 16:05:03 -0500</pubDate>
+      <sparkle:version>279</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: initSession returns prior thread summary and summarizeAndSave routes to threads (US-008, US-009)
+- feat: add session rotation handler with Continuing session banner and error recovery (US-007)
+- feat: restructure spec detail into left/right split with Plan/Build thread tabs (US-006)
+- feat: replace Sessions tab with Plan/Build/QA thread tabs in task detail view (US-005)
+- feat: add TaskThreadViewModel with plan/build/qa thread state and checkout management (US-004)
+- feat: US-004 — TaskThreadViewModel for three-tab thread state per task
+- feat: US-003 — ThreadManager service for helm_threads management
+- feat: add thread_checkouts table, inPlanning/readyForBuild statuses, drop old checkout columns (US-002)
+- feat: add helm_threads table, thread_id FK on sessions, and HelmThread Swift models (US-001)
+- fix: resolve timing race — mutate message data before signaling streaming end
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-279/Helm-0.1.0-279.dmg" length="59592634" type="application/octet-stream" sparkle:edSignature="XcmBSePjCOLSDZUQlcA+Av1xf0LEvykhbrKFaRwnBjJl559Tqhzx/5eUVjzAASeurj2Xj+VDk8OMjAzi68q/Bg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Mon, 06 Apr 2026 20:33:31 -0500</pubDate>
       <sparkle:version>278</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
