@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 07 Apr 2026 20:05:26 -0500</pubDate>
+      <sparkle:version>284</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: capture findOrCreateSessionTab return value to set inlineSessionTabs state, fix session query column name
+- fix: resolve Connecting to session stuck state — use @State tracking for inline session tabs
+- fix: embed session content inline in Plan/Build/QA tabs, fix duplicate session creation
+- fix: restructure spec Plan/Build into main tabs, remove header buttons, wire Start Session to launch opencode via TabManager
+- feat: migrate Helm Assistant onto helm_threads — unified thread schema for all agent types (US-012)
+- feat: add thread query tools, thread commands, and update existing MCP tools for helm_threads model (US-011)
+- feat: add task.mergeThread and task.discardThread commands, update completeAndMerge resolution (US-010)
+- feat: wire initSession thread summary and summarizeAndSave thread routing (US-008, US-009)
+- feat: initSession returns prior thread summary and summarizeAndSave routes to threads (US-008, US-009)
+- feat: add session rotation handler with Continuing session banner and error recovery (US-007)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-284/Helm-0.1.0-284.dmg" length="59749451" type="application/octet-stream" sparkle:edSignature="iykGs7dliBXyc04rXDRvx/jLMfhxelQY1iEYLlMmbSAo7kI3hjrLz2sbDT2hFwEF4CkyAl81dcX6XeDkDQIABw==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 07 Apr 2026 19:52:28 -0500</pubDate>
       <sparkle:version>283</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
