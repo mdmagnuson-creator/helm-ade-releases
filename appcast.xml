@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Tue, 07 Apr 2026 19:12:13 -0500</pubDate>
+      <sparkle:version>281</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- fix: restructure spec Plan/Build into main tabs, remove header buttons, wire Start Session to launch opencode via TabManager
+- feat: migrate Helm Assistant onto helm_threads — unified thread schema for all agent types (US-012)
+- feat: add thread query tools, thread commands, and update existing MCP tools for helm_threads model (US-011)
+- feat: add task.mergeThread and task.discardThread commands, update completeAndMerge resolution (US-010)
+- feat: wire initSession thread summary and summarizeAndSave thread routing (US-008, US-009)
+- feat: initSession returns prior thread summary and summarizeAndSave routes to threads (US-008, US-009)
+- feat: add session rotation handler with Continuing session banner and error recovery (US-007)
+- feat: restructure spec detail into left/right split with Plan/Build thread tabs (US-006)
+- feat: replace Sessions tab with Plan/Build/QA thread tabs in task detail view (US-005)
+- feat: add TaskThreadViewModel with plan/build/qa thread state and checkout management (US-004)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-281/Helm-0.1.0-281.dmg" length="59714713" type="application/octet-stream" sparkle:edSignature="aD7Zz3eT8CV/G2dOfmwZNpATKnscYIw+Z6MFoiyFB6nVaEMiJbBcZ5n8PujL4c9plEqnrxR6+Qr3jxi0OvSxAg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Tue, 07 Apr 2026 16:05:03 -0500</pubDate>
       <sparkle:version>279</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
