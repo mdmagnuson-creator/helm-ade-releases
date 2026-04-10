@@ -7,6 +7,26 @@
     <language>en</language>
     <item>
       <title>Version 0.1.0</title>
+      <pubDate>Thu, 09 Apr 2026 20:45:23 -0500</pubDate>
+      <sparkle:version>287</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+- feat: TDD infrastructure + CPU spin fixes + new Helm commands
+- fix: gate streamingPollTimer on active streaming + stop stale TimelineView timers (FIX-068)
+- fix: use isNewSession:true for fresh session reuse — opencode serve needs POST /session
+- fix: skip rotation for fresh sessions + mark old sessions completed on rotation
+- fix: settle SubAgentMessagesObserver using live streaming state instead of stale detail.status (FIX-067)
+- fix: break infinite body eval loop when streaming ends (FIX-066)
+- fix: skip updateCachedMessages for idle subagent observers during streaming (FIX-065)
+- fix: rotate thread with fresh summary on Build tab reopen instead of reusing stale session ID (FIX-064)
+- fix: stop SubAgentMessagesObserver polling after tool call completes — prevents 99.5% CPU spin (FIX-063)
+- feat: simplify TaskThreadViewModel.loadThreads() to use direct FK lookups (TSK-006)
+      ]]></description>
+      <enclosure url="https://github.com/mdmagnuson-creator/helm-ade-releases/releases/download/v0.1.0-287/Helm-0.1.0-287.dmg" length="60041415" type="application/octet-stream" sparkle:edSignature="czTByocWUwgQriaMnYiu+2SzqYanl6SAc4s7ak/HDRhbrnnkn9L0WUJ98aI4asF5z0iAODhGy06y8dWos8BYBg==" />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
       <pubDate>Thu, 09 Apr 2026 11:03:08 -0500</pubDate>
       <sparkle:version>286</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
